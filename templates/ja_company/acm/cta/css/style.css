@@ -1,0 +1,28 @@
+.acm-cta {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 64px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .acm-cta {
+    padding: 24px 0;
+  }
+}
+.acm-cta h2 {
+  color: #ffffff;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 64px 0 0;
+}
+@media (max-width: 767px) {
+  .acm-cta h2 {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+.acm-cta .btn {
+  box-shadow: 8px 0 16px rgba(0, 0, 0, 0.1);
+}
