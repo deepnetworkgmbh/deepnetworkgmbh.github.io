@@ -1567,6 +1567,7 @@ textarea.form-control {
   font-weight: 400;
   font-size: 11px;
   border: 0;
+  margin-bottom: 15px;
 }
 .btn-inverse {
   background-color: #333333;
