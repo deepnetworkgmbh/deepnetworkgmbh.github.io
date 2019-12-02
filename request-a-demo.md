@@ -46,7 +46,7 @@ layout: default
                             <div style="color: #ccc">
                                 Fields marked with an asterisk (*) are required.<br /><br />
                             </div>
-                            <form method="POST" id="demoRequestForm" action="http://www.otomobilgi.com/deepnetwork/virgo-assets/demo-request-send.php" name="demoRequestForm" enctype="multipart/form-data" class="form-horizontal" onsubmit="return submitForm();">
+                            <form id="demoRequestForm" name="demoRequestForm" enctype="multipart/form-data" class="form-horizontal"  >
                                 <div class="inputmain">
                                     <div id="namesurname_basligi" class="formHeader">Name & Surname(<span style="color: #f79c0e;">*</span>)</div>
                                     <div class="centered">
@@ -324,7 +324,7 @@ layout: default
                                     <div class="formHeader"></div>
                                     <div class="centered">
                                         <input id="responsePost" type="hidden" name="responsePost" >
-                                        <button type="submit" disabled="disabled" id="submitbutton"  class="btn btn-info">REQUEST</button>
+                                        <button type="button" disabled="disabled" id="submitbutton"  class="btn btn-info" onclick="return submitForm();">REQUEST</button>
                                     </div>
                                 </div>
                             </form>
@@ -349,12 +349,6 @@ layout: default
     var onloadCallback = function() { 
         grecaptcha.render('recaptcha_html_element', {'sitekey' : '6LcxzQwTAAAAAMsEBv4VaGTBENfEmDYhcgrYmeZC','callback' : verifyCallback});
     };
-
-	jQuery(function($){
-	  // $("#telefon").mask("(999) 999 9999");
-	  // $("#telephone").mask("(999) 999 9999");
-	  // $("#faks").mask("(999) 999 9999");
-	});
 	
 	function hepsiniKucult(str) {
 		str = str.replace(/İ/g, "i");
@@ -511,8 +505,16 @@ layout: default
 			return false;
 		} else {
 			telephone_basligi.style.color = "#fff";
-			form.submit();
-			return true;
-		}
+        }
+        
+        var to = 'info' + String.fromCharCode(64) + 'deepnetwork.com';
+        var subject = encodeURI('Request A Demo');
+        var body = 'name: ' + namesurname.value + '\n';
+        body += 'email: ' + email.value + '\n';
+        body += 'phone: ' + telephone.value + '\n';
+        body += 'county: ' + country.value + '\n';
+        body = encodeURI(body);
+        window.open('mailto:' + to  + '?subject=' + subject + '&body=' + body);
+        
     };
 </script>
