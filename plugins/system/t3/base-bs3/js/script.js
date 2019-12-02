@@ -99,48 +99,6 @@
 	//document ready
 	$(document).ready(function(){
 
-		//remove conflict of mootools more show/hide function of element
-		(function(){
-			if(window.MooTools && window.MooTools.More && Element && Element.implement){
-
-				var mthide = Element.prototype.hide,
-					mtshow = Element.prototype.show,
-					mtslide = Element.prototype.slide;
-
-				Element.implement({
-					show: function(args){
-						if(arguments.callee &&
-							arguments.callee.caller &&
-							arguments.callee.caller.toString().indexOf('isPropagationStopped') !== -1){	//jquery mark
-							return this;
-						}
-
-						return $.isFunction(mtshow) && mtshow.apply(this, args);
-					},
-
-					hide: function(){
-						if(arguments.callee &&
-							arguments.callee.caller &&
-							arguments.callee.caller.toString().indexOf('isPropagationStopped') !== -1){	//jquery mark
-							return this;
-						}
-
-						return $.isFunction(mthide) && mthide.apply(this, arguments);
-					},
-
-					slide: function(args){
-						if(arguments.callee &&
-							arguments.callee.caller &&
-							arguments.callee.caller.toString().indexOf('isPropagationStopped') !== -1){	//jquery mark
-							return this;
-						}
-
-						return $.isFunction(mtslide) && mtslide.apply(this, args);
-					}
-				})
-			}
-		})();
-
 		// overwrite default tooltip/popover behavior (same as Joomla 3.1.5)
 		$.fn.tooltip.Constructor && $.fn.tooltip.Constructor.DEFAULTS && ($.fn.tooltip.Constructor.DEFAULTS.html = true);
 		$.fn.popover.Constructor && $.fn.popover.Constructor.DEFAULTS && ($.fn.popover.Constructor.DEFAULTS.html = true);
