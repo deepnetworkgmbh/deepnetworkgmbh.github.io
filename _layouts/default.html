@@ -97,5 +97,32 @@
         </div>
         <link rel="stylesheet" type="text/css" href="plugins/cookie-consent/style.css" />
         <script src="plugins/cookie-consent/script.js"></script>
+        <script>
+          document.onreadystatechange = function () {
+            if (document.readyState == "complete") {
+                var galleryTop = new Swiper('.slideshow-top', {
+                    nextButton: '.swiper-button-next',
+                    prevButton: '.swiper-button-prev',
+                    spaceBetween: 0,
+                    effect: 'fade',
+                    pagination: '.swiper-pagination',
+                    loop: true,
+                    paginationClickable: true,
+                    loopedSlides: 3, //looped slides should be the same
+                    autoplay: '3500'
+                });
+                var galleryThumbs = new Swiper('.slideshow-thumbs', {
+                    spaceBetween: 30,
+                    slidesPerView: 3,
+                    touchRatio: 0.2,
+                    loop: true,
+                    loopedSlides: 3, //looped slides should be the same
+                    slideToClickedSlide: true
+                });
+                galleryTop.params.control = galleryThumbs;
+                galleryThumbs.params.control = galleryTop;
+            }
+        }
+        </script>
     </body>
 </html>
