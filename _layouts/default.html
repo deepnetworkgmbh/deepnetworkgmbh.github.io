@@ -98,8 +98,7 @@
         <link rel="stylesheet" type="text/css" href="plugins/cookie-consent/style.css" />
         <script src="plugins/cookie-consent/script.js"></script>
         <script>
-          document.onreadystatechange = function () {
-            if (document.readyState == "complete") {
+          document.addEventListener('DOMContentLoaded', function() {
                 var galleryTop = new Swiper('.slideshow-top', {
                     nextButton: '.swiper-button-next',
                     prevButton: '.swiper-button-prev',
@@ -121,8 +120,7 @@
                 });
                 galleryTop.params.control = galleryThumbs;
                 galleryThumbs.params.control = galleryTop;
-            }
-        }
+          });
         </script>
     </body>
 </html>
