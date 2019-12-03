@@ -157,28 +157,5 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    <script>
-        var galleryTop = new Swiper('.slideshow-top', {
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            spaceBetween: 0,
-            effect: 'fade',
-            pagination: '.swiper-pagination',
-            loop: true,
-            paginationClickable: true,
-            loopedSlides: 3, //looped slides should be the same
-            autoplay: '3500'
-        });
-        var galleryThumbs = new Swiper('.slideshow-thumbs', {
-            spaceBetween: 30,
-            slidesPerView: 3,
-            touchRatio: 0.2,
-            loop: true,
-            loopedSlides: 3, //looped slides should be the same
-            slideToClickedSlide: true
-        });
-        galleryTop.params.control = galleryThumbs;
-        galleryThumbs.params.control = galleryTop;
-    </script>
 </div>
 <!-- //SLIDESHOW -->
