@@ -93,7 +93,7 @@ layout: default
                         </div>
                         <hr>
                         <div class="row" style="margin:0 auto; text-align: center;">
-                            <h2 style="color: #acc91e;">Highlights</h2>
+                            <h2 style="color: #f76818;">Highlights</h2>
                             <br />
                             <div class="col-md-4" style="text-align: center;">
                                 <div class="components">                                    
