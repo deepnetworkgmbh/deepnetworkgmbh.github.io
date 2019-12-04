@@ -48,13 +48,13 @@ layout: default
                             </div>
                             <form method="POST" id="demoRequestForm" action="http://www.otomobilgi.com/deepnetwork/virgo-assets/demo-request-send.php" name="demoRequestForm" enctype="multipart/form-data" class="form-horizontal" onsubmit="return submitForm();">
                                 <div class="inputmain">
-                                    <div id="namesurname_basligi" class="formHeader">Name & Surname(<span style="color: #f79c0e;">*</span>)</div>
+                                    <div id="namesurname_basligi" class="formHeader">Name & Surname(<span style="color: #acc91e;">*</span>)</div>
                                     <div class="centered">
                                         <input type="text" style="width: 300px;" name="namesurname" id="namesurname" class="input-large" /><br />
                                     </div>
                                 </div>	
                                 <div class="inputmain">
-                                    <div id="country_basligi" class="formHeader">Your Country (<span style="color: #f79c0e;">*</span>)</div>
+                                    <div id="country_basligi" class="formHeader">Your Country (<span style="color: #acc91e;">*</span>)</div>
                                     <div class="centered">
                                         <select class="input-large" style="width: 300px;" name="country" id="country">
                                             <option value="Select" disabled="" selected="">-- Select --</option>
@@ -304,13 +304,13 @@ layout: default
                                     </div>
                                 </div>
                                 <div class="inputmain">
-                                    <div id="email_basligi" class="formHeader">E-Mail (<span style="color: #f79c0e;">*</span>)</div>
+                                    <div id="email_basligi" class="formHeader">E-Mail (<span style="color: #acc91e;">*</span>)</div>
                                     <div class="centered">
                                         <input type="text" style="width: 300px;" name="email" id="email" size="20" class="input-large" value="" /><br />
                                     </div>
                                 </div>		
                                 <div class="inputmain">
-                                    <div id="telephone_basligi" class="formHeader">Phone Number(<span style="color: #f79c0e;">*</span>)</div>
+                                    <div id="telephone_basligi" class="formHeader">Phone Number(<span style="color: #acc91e;">*</span>)</div>
                                     <div class="centered">
                                         <input type="text" style="width: 300px;" name="telephone" id="telephone" class="input-large" /><br />
                                     </div>
@@ -451,7 +451,7 @@ layout: default
 				confirmButtonColor: "#2494b2"
 			});
 			namesurname.focus();
-			namesurname_basligi.style.color = "#f79c0e";
+			namesurname_basligi.style.color = "#acc91e";
 			return false;
 		} else {
 			namesurname_basligi.style.color = "#fff";
@@ -466,7 +466,7 @@ layout: default
 				confirmButtonColor: "#2494b2"
 			});
 			country.focus();
-			country_basligi.style.color = "#f79c0e";
+			country_basligi.style.color = "#acc91e";
 			return false;
 		} else {
 			country_basligi.style.color = "#fff";
@@ -481,7 +481,7 @@ layout: default
 				confirmButtonColor: "#2494b2"
 			});		
       	email.focus();
-      	email_basligi.style.color = "#f79c0e";
+      	email_basligi.style.color = "#acc91e";
       	return false;
     	} else if (!emailValid(email.value)) {
     		swal({
@@ -492,7 +492,7 @@ layout: default
 				confirmButtonColor: "#2494b2"
 			});
       	email.focus();
-      	email_basligi.style.color = "#f79c0e";
+      	email_basligi.style.color = "#acc91e";
       	return false;	  	
     	} else {
     		email_basligi.style.color = "#fff";
@@ -507,7 +507,7 @@ layout: default
 				confirmButtonColor: "#2494b2"
 			});
 			telephone.focus();
-			telephone_basligi.style.color = "#f79c0e";
+			telephone_basligi.style.color = "#acc91e";
 			return false;
 		} else {
 			telephone_basligi.style.color = "#fff";

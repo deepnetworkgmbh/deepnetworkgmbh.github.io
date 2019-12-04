@@ -78,7 +78,7 @@ div.solutionstext {
 
 div.solutionstext h2, div.contenttext h2 {
   margin-top: 0;
-  color: #f76818;
+  color: #acc91e;
 }
 
 div.leadershiptext {
@@ -88,7 +88,7 @@ div.leadershiptext {
 
 div.leadershiptext h2 {
   margin: 0;
-  color: #f76818;
+  color: #acc91e;
 }
 
 div.leadershiptitle {
@@ -111,7 +111,7 @@ div.servicestext, div.contenttext {
 }
 
 .acm-testimonial.style-1 .owl-carousel .owl-buttons > div {
-  border: 1px solid #f76818;
+  border: 1px solid #acc91e;
 }  
 
 p.acm-features-intro a.btn {
@@ -194,7 +194,7 @@ img.cryptocoins_accepted {
 
 div.t3-sidebar .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #f76818;
+  background-color: #acc91e;
   border-right: 4px solid #006584;
 }
 
@@ -580,7 +580,7 @@ div.swiper-thumbs {
 }
 
 .swiper-button-white i {
-  color: #f76818;
+  color: #acc91e;
 }
 
 div.slider-content-inner {
@@ -5213,7 +5213,7 @@ fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn-prima
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.active,
 .open > .dropdown-toggle.edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary {
   color: #ffffff;
-  background: #f76818;
+  background: #acc91e;
   border-color: #e45608;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary:active,
@@ -5915,7 +5915,7 @@ a.list-group-item.active:focus .list-group-item-text {
 div.alert-info i.fa-lightbulb {
   float: left;
   padding-right: 20px;
-  color: #f76818;
+  color: #acc91e;
 }
 
 div.alert-success i.fa-info-circle {
@@ -6077,7 +6077,7 @@ div#hosting-prices div.container {
 
 .table-cpanel-comparison i.fa-question-circle,
 .table-whm-comparison i.fa-question-circle {
-  color: #f76818;
+  color: #acc91e;
 }
 
 .table-cpanel-comparison i.fa-question-circle:hover,
@@ -6088,7 +6088,7 @@ div#hosting-prices div.container {
 
 
 .table-domain-pricing i.fa-question-circle {
-  color: #f76818;
+  color: #acc91e;
   padding-right: 10px;
 }
 
