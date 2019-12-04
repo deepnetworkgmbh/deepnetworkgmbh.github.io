@@ -1,0 +1,54 @@
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+.footericon {
+    width:30px;
+    height:30px;
+    fill:white;
+}
+
+.headericon {
+    width:15px;
+    height:15px;
+    fill:#234269;
+}
+
+.contacticon {
+    width:30px;
+    height:30px;
+    fill:rgb(173,201,30);
+}
+
+.solutionicon {
+    width:55px;
+    height:55px;
+    fill: white;
+    margin-top:22px;
+}
+
+.burgericon {
+    width:20px;
+    height:20px;
+    fill:white;
+    margin-top:6px;
+}
+
+.swipericons {
+    width:30px;
+    height:30px;
+    fill:white;
+    margin-top:7px;
+}
+.serviceicons {
+    width:20px;
+    height:20px;
+    fill:rgb(173,201,30);
+}
+
+.socialmediaicons {
+    width:40px;
+    height:40px;
+}

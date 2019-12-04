@@ -172,7 +172,8 @@ layout: default
                     itemsScaleUp: true,
                     navigation: true,
                     navigationText: [
-                        "<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"
+                        "<svg class='serviceicons'><use xlink:href='../images/sprite.svg#icon-caret-left'></use></svg>", 
+                        "<svg class='serviceicons'><use xlink:href='../images/sprite.svg#icon-caret-right'></use></svg>"
                     ],
                     pagination: false,
                     paginationNumbers: false,

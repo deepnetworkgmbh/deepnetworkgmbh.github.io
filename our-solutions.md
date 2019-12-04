@@ -96,32 +96,44 @@ layout: default
                             <h2 style="color: #f76818;">Highlights</h2>
                             <br />
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-cloud-upload-alt"></i></div><br />
+                                <div class="components">                                    
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-cloud-upload"></use></svg>  
+                                </div><br />
                                 <strong>Deployment</strong><br />
                                 Deploy your business app to any cloud with just a click.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-magic"></i></div><br />
+                                <div class="components">
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-magic"></use></svg>  
+                                </div><br />
                                 <strong>Integrated</strong><br />
                                 Connect your business app to other third party services easily.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-rocket"></i></div><br />
+                                <div class="components">
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-rocket"></use></svg>  
+                                </div><br />
                                 <strong>Performance</strong><br />
                                 Regardless of your data and transaction size, built-in performance optimization logic ensures you have the fastest experience avaliable.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-recycle"></i></div><br />
+                                <div class="components">
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-recycle"></use></svg>  
+                                </div><br />
                                 <strong>Sustainability</strong><br />
                                 Benefit from the built-in Development, Testing, Acceptance and Production processes.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-mobile"></i></div><br />
+                                <div class="components">
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-mobile"></use></svg>  
+                                </div><br />
                                 <strong>Omni-Channel</strong><br />
                                 Unify development activities and build only one app for all devices.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
-                                <div class="components"><i class="fas fa-box-open"></i></div><br />
+                                <div class="components">
+                                <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-archive"></use></svg>  
+                                </div><br />
                                 <strong>Code-Agnostic</strong><br />
                                 Leverage your existing programming skills to make customizations fast and have the complete control.<br /><br />
                             </div>
