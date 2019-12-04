@@ -46,11 +46,13 @@ layout: default
                     <section class="article-content clearfix" itemprop="articleBody">
 			            <div class="row" style="font-size: 18px; margin: 30px auto;">
 	                        <div class="col-md-3">
-		                        <i class="fas fa-phone contacticon"></i><br>
+                                <svg class="contacticon"><use xlink:href="../images/sprite.svg#icon-phone"></use></svg>
+		                        <br>
 		                        <a href="tel:+49 (0) 89 2316 6638">+49 (0) 89 2316 6638</a><br><br>
 	                        </div>
 	                        <div class="col-md-3">
-		                        <i class="fas fa-envelope contacticon"></i><br>
+                                <svg class="contacticon"><use xlink:href="../images/sprite.svg#icon-envelope"></use></svg>
+                                <br>
                                 <span id="cloaka4e1284d423aa5bf27857b071fae9748">This email address is being protected from spambots. You need JavaScript enabled to view it.</span>
                                 <script type='text/javascript'>
                                     document.getElementById('cloaka4e1284d423aa5bf27857b071fae9748').innerHTML = '';
@@ -62,7 +64,8 @@ layout: default
                                 </script><br><br>
 	                        </div>	
                         	<div class="col-md-3">
-                                <i class="fas fa-map-marked-alt contacticon"></i><br>
+                                <svg class="contacticon"><use xlink:href="../images/sprite.svg#icon-map-o"></use></svg>
+                                <br>
                                 <a href="https://www.google.com/maps/place/Landsberger+Str.+302,+80687+München,+Germany/@48.14355,11.4984984,17z/data=!3m1!4b1!4m5!3m4!1s0x479e762aeaf2d807:0xc5a85816304c8a87!8m2!3d48.14355!4d11.5006871" target="_blank">Landsbergerstr. 302<br>
                                 D-80687 München<br>
                                 GERMANY</a>
