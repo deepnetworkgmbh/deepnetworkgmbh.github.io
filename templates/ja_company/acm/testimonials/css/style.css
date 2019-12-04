@@ -126,7 +126,7 @@
   left: -64px;
 }
 .acm-testimonial.style-1 .owl-carousel .owl-buttons > div:hover {
-  background: linear-gradient(#819617, #acc91e);
+  background: linear-gradient(#f9884a, #f87831);
   box-shadow: 8px 0 16px rgba(0, 0, 0, 0.1);
   color: #ffffff;
 }
@@ -218,7 +218,7 @@
   width: 24px;
 }
 .acm-testimonial.style-3 .owl-carousel .owl-controls .owl-buttons > div:hover {
-  background: linear-gradient(#819617, #acc91e);
+  background: linear-gradient(#f9884a, #f87831);
   box-shadow: 8px 0 16px rgba(0, 0, 0, 0.1);
   color: #ffffff;
 }

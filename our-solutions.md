@@ -145,7 +145,7 @@ layout: default
 	</div>
 </div>
 <div class="section-wrap t3-content-bottom ">
-    <div class="acm-cta style-1" style="background-image: url(images/dnbgreen.png);">
+    <div class="acm-cta style-1" style="background-image: url(images/bg-cta.jpg);">
         <div class="container">
             <div class="cta-content">
                 <h2>Start Shaping the Future Now</h2>
