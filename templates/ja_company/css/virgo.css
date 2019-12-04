@@ -46,7 +46,7 @@ body {
 
 i.contacticon {
   font-size: 26px;
-  color: #f87831;
+  color: #acc91e;
 }
 
 .acm-testimonial.style-1 .testimonial-intro {
@@ -58,7 +58,7 @@ i.contacticon {
 }
 
 div.deep-swatch {
-  background: #f87831;
+  background: #acc91e;
   color: #fff;
   padding: 20px 20px 10px 20px;
   text-align: center;
@@ -160,7 +160,7 @@ section.article-content div.portal-kb-home a {
 }
 
 .kbportal .fa-3x:hover, .kbportal .fa-3x:focus {
-  color: #f87831;
+  color: #acc91e;
 }
 
 
@@ -173,7 +173,7 @@ td.centered, th.centered {
 }
 
 th.bg-danger {
-  background-color: #f87831 !important;
+  background-color: #acc91e !important;
   width: 30% !important;
 }
 
@@ -414,7 +414,7 @@ h2.acm-features-title {
 }
 
 .acm-features .owl-controls .owl-buttons > div {
-  border: 1px solid #f76818;
+  border: 1px solid #acc91e;
 }
 
 h2.testimonial-showcase-intro {
@@ -563,7 +563,7 @@ div.swiper-thumbs {
 }
 
 .swiper-button-white {
-  border: 1px solid #f76818;
+  border: 1px solid #acc91e;
 }
 
 @media (min-width: 992px) {
@@ -694,7 +694,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #f87831;
+  color: #acc91e;
   text-decoration: none;
 }
 a:focus {
@@ -736,7 +736,7 @@ table.contentpaneopen {
   border: 0;
 }
 .star {
-  color: #f87831;
+  color: #acc91e;
 }
 .red {
   color: #cc0000;
@@ -922,7 +922,7 @@ p {
   background: #234269;
 }
 .example-colors .color-brand-secondary {
-  background: #f87831;
+  background: #acc91e;
 }
 .example-colors .color-brand-success {
   background: #5cb85c;
@@ -1238,7 +1238,7 @@ samp {
   margin-top: 24px;
 }
 .label-small {
-  color: #f87831;
+  color: #acc91e;
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -1335,7 +1335,7 @@ samp {
   text-align: right;
 }
 .address-list li a {
-  border-bottom: 1px solid #f87831;
+  border-bottom: 1px solid #acc91e;
 }
 .box-contact {
   border-bottom: 1px solid #3a3a3a;
@@ -1368,7 +1368,7 @@ samp {
   font-size: 12px;
 }
 .box-contact .contact-item a {
-  border-bottom: 1px solid #f87831;
+  border-bottom: 1px solid #acc91e;
   display: inline-block;
   color: #ffffff;
   font-size: 12px;
@@ -1376,7 +1376,7 @@ samp {
 .box-contact .contact-item a:hover,
 .box-contact .contact-item a:focus,
 .box-contact .contact-item a:active {
-  color: #f87831;
+  color: #acc91e;
 }
 .site-info h2 {
   color: #ffffff;
@@ -1483,7 +1483,7 @@ samp {
   color: #0077bb;
 }
 .resource .box-inner i.orange {
-  color: #f87831;
+  color: #acc91e;
 }
 .resource .box-inner i.cyan {
   color: #0099cc;
@@ -2161,7 +2161,7 @@ input.invalid {
   border-left-color: #2d2d2d;
 }
 .dropdown-submenu:hover > a:after {
-  border-left-color: #f87831;
+  border-left-color: #acc91e;
 }
 .nav > li > .separator {
   position: relative;
@@ -2240,8 +2240,8 @@ input.invalid {
   border-style: solid;
 }
 .nav a:hover .caret {
-  border-top-color: #f87831;
-  border-bottom-color: #f87831;
+  border-top-color: #acc91e;
+  border-bottom-color: #acc91e;
 }
 .t3-navhelper {
   color: #555555;
@@ -2331,7 +2331,7 @@ input.invalid {
   }
 }
 .navbar-toggle {
-  background: linear-gradient(#f9884a, #f87831);
+  background: linear-gradient(#f9884a, #acc91e);
   border: 0;
   border-radius: 2px;
   padding: 0;
@@ -2435,7 +2435,7 @@ input.invalid {
 }
 .navbar-default .navbar-nav > .active > a:before,
 .navbar-default .navbar-nav > .active > span:before {
-  background: #f87831;
+  background: #acc91e;
   border-radius: 2px;
   bottom: -2px;
   content: "";
@@ -2492,19 +2492,19 @@ input.invalid {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #f87831;
+    color: #acc91e;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f87831;
+    color: #acc91e;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:after,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover:after,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus:after {
-    border-left-color: #f87831;
+    border-left-color: #acc91e;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -2568,12 +2568,12 @@ input.invalid {
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > a,
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > span {
-  color: #f87831;
+  color: #acc91e;
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > a .caret,
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > span .caret {
-  border-top-color: #f87831;
-  border-bottom-color: #f87831;
+  border-top-color: #acc91e;
+  border-bottom-color: #acc91e;
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > a:before,
 .t3-mainnav .t3-navbar-collapse .navbar-nav > li.active > span:before {
@@ -2606,7 +2606,7 @@ input.invalid {
   right: 16px;
 }
 .t3-mainnav .t3-navbar-collapse .navbar-nav .dropdown > a .active > a {
-  color: #f87831;
+  color: #acc91e;
 }
 
 .t3-module {
@@ -2844,7 +2844,7 @@ ul.latestnews a {
 }
 ul.latestnews a:hover,
 ul.latestnews a:focus {
-  color: #f87831;
+  color: #acc91e;
 }
 .tagssimilar ul {
   margin: 0;
@@ -2861,7 +2861,7 @@ ul.latestnews a:focus {
 .tagssimilar ul > li > a:hover,
 .tagssimilar ul > li > a:focus,
 .tagssimilar ul > li > a:active {
-  color: #f87831;
+  color: #acc91e;
 }
 .module-ct > ol.breadcrumb {
   padding: 12px 16px;
@@ -2966,7 +2966,7 @@ ul.latestnews a:focus {
 }
 .btn.jmodedit:hover,
 .btn.jmodedit:active {
-  color: #f87831;
+  color: #acc91e;
 }
 .com_config #modules-form .input-append .btn,
 .com_config #modules-form .input-prepend .btn {
@@ -3048,7 +3048,7 @@ div.acymailing_module .acymailing_togglemodule {
 .blog-featured .article-title:focus,
 .blog .article-title a:focus,
 .blog-featured .article-title a:focus {
-  color: #f87831;
+  color: #acc91e;
 }
 .blog .item-image,
 .blog-featured .item-image {
@@ -3172,12 +3172,12 @@ div.acymailing_module .acymailing_togglemodule {
   float: left;
 }
 .article-info a {
-  border-bottom: 1px solid #f87831;
+  border-bottom: 1px solid #acc91e;
 }
 .article-info a:hover,
 .article-info a:focus,
 .article-info a:active {
-  color: #f87831;
+  color: #acc91e;
 }
 .article-info .article-info-term {
   display: none;
@@ -3326,7 +3326,7 @@ article aside .btn-group .dropdown-menu > li > a:hover,
 article aside .btn-group .dropdown-menu > li > a:active,
 article aside .btn-group .dropdown-menu > li > a:focus {
   background: none;
-  color: #f87831;
+  color: #acc91e;
 }
 article aside .btn-group .dropdown-menu > li > a span.fa {
   margin-right: 3px;
@@ -3337,7 +3337,7 @@ article aside .btn-group.open > .dropdown-toggle {
 article aside .btn-group > .dropdown-toggle:hover,
 article aside .btn-group > .dropdown-toggle:active,
 article aside .btn-group > .dropdown-toggle:focus {
-  color: #f87831;
+  color: #acc91e;
   box-shadow: none;
 }
 article aside .btn-group > .dropdown-toggle,
@@ -3521,7 +3521,7 @@ article aside .btn-group > .dropdown-toggle .caret {
 .login-wrap .other-links ul li a:hover,
 .login-wrap .other-links ul li a:focus,
 .login-wrap .other-links ul li a:active {
-  color: #f87831;
+  color: #acc91e;
   text-decoration: none;
 }
 .logout {
@@ -4135,7 +4135,7 @@ div.finder #finder-filter-window .control-label {
   }
 }
 .item-page .article-aside .article-info dd a {
-  border-bottom: 1px solid #f87831;
+  border-bottom: 1px solid #acc91e;
 }
 .item-page .form-inline {
   margin-bottom: 24px;
@@ -4638,7 +4638,7 @@ div.finder #finder-filter-window .control-label {
   display: inline-block;
 }
 .contact #slide-contact .accordion-group .accordion-heading a .marker .marker-open .fa {
-  background-color: #f87831;
+  background-color: #acc91e;
 }
 .contact #slide-contact .accordion-group .accordion-heading a .marker .marker-close {
   display: none;
@@ -4721,7 +4721,7 @@ div.finder #finder-filter-window .control-label {
   transition: 0.3s;
 }
 .categories-list .category-inner:hover .item-title a {
-  color: #f87831;
+  color: #acc91e;
 }
 .categories-list .description-image {
   margin: -24px -24px 24px;
@@ -4763,7 +4763,7 @@ div.finder #finder-filter-window .control-label {
 }
 .categories-list .item-title a:hover,
 .categories-list .item-title a:active {
-  color: #f87831;
+  color: #acc91e;
   text-decoration: none;
 }
 .categories-list .category-desc {
@@ -4906,13 +4906,13 @@ div.finder #finder-filter-window .control-label {
 #article-index ul > li > a:focus,
 .article-index ul > li > a:focus {
   background: none;
-  color: #f87831;
+  color: #acc91e;
 }
 #article-index ul > .active > a,
 .article-index ul > .active > a {
   border: 0;
   background: none;
-  color: #f87831;
+  color: #acc91e;
 }
 #article-index ul > .active > a:hover,
 .article-index ul > .active > a:hover,
@@ -4922,7 +4922,7 @@ div.finder #finder-filter-window .control-label {
 .article-index ul > .active > a:focus {
   border: 0;
   background: none;
-  color: #f87831;
+  color: #acc91e;
 }
 #article-index ul > .active > a:before,
 .article-index ul > .active > a:before {
@@ -5157,10 +5157,10 @@ fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn.activ
   background-color: #ffffff;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary {
-  background-color: #f87831;
-  border-color: #f87831;
+  background-color: #acc91e;
+  border-color: #acc91e;
   color: #ffffff;
-  background: linear-gradient(#f9884a, #f87831);
+  background: linear-gradient(#819617, #acc91e);
   border: 0;
   font-size: 11px;
   font-family: 'Oswald', sans-serif;
@@ -5173,8 +5173,8 @@ fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn.activ
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.active,
 .open > .dropdown-toggle.edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary {
   color: #ffffff;
-  background-color: #ee5a08;
-  border-color: #e45608;
+  background-color: #acc91e;
+  border-color: #acc91e;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary:active,
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.active,
@@ -5199,11 +5199,11 @@ fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn-prima
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.disabled.active,
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary[disabled].active,
 fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.active {
-  background-color: #f87831;
-  border-color: #f87831;
+  background-color: #acc91e;
+  border-color: #acc91e;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary .badge {
-  color: #f87831;
+  color: #acc91e;
   background-color: #ffffff;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary:hover,
@@ -5239,11 +5239,11 @@ fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn-prima
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.disabled.active,
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary[disabled].active,
 fieldset[disabled] .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary.active {
-  background-color: #f87831;
-  border-color: #f87831;
+  background-color: #acc91e;
+  border-color: #acc91e;
 }
 .edit.item-page fieldset + .btn-toolbar .btn-group .btn-primary .badge {
-  color: #f87831;
+  color: #acc91e;
   background-color: #ffffff;
 }
 .edit.item-page #editor-xtd-buttons .btn,
@@ -5565,7 +5565,7 @@ a.list-group-item.active:focus .list-group-item-text {
 .topbar-right .mod-languages .dropdown-menu li a:hover,
 .topbar-right .mod-languages .dropdown-menu li a:focus,
 .topbar-right .mod-languages .dropdown-menu li a:active {
-  color: #f87831;
+  color: #acc91e;
 }
 .logo {
   text-align: center;
@@ -6021,7 +6021,7 @@ div.presalesqa .acm-accordion .panel-title .marker .fa {
 }
 
 div.crypto-head {
-  color: #f87831;
+  color: #acc91e;
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;

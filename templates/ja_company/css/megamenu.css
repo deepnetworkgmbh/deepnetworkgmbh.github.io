@@ -82,7 +82,7 @@
 .t3-megamenu .mega-nav > li a:focus,
 .t3-megamenu .dropdown-menu .mega-nav > li a:focus {
   text-decoration: none;
-  color: #f87831;
+  color: #acc91e;
   background-color: #ffffff;
 }
 .t3-megamenu .mega-nav > li .separator {
@@ -366,14 +366,14 @@
 }
 .t3-megamenu > ul > li > .mega-dropdown-menu {
   border-radius: 4px;
-  border: 2px solid #f87831;
+  border: 2px solid #acc91e;
   padding-left: 16px;
   padding-right: 16px;
   margin-top: -2px;
 }
 .t3-megamenu .dropdown-submenu .mega-dropdown-menu {
   border-radius: 4px;
-  border: 2px solid #f87831;
+  border: 2px solid #acc91e;
 }
 .t3-megamenu .dropdown-header,
 .t3-megamenu .mega-nav .mega-group > .dropdown-header,
@@ -423,7 +423,7 @@
 .t3-megamenu .dropdown-menu .mega-group .mega-nav > li.active > span,
 .t3-megamenu .dropdown-menu .mega-nav > li.active > a,
 .t3-megamenu .dropdown-menu .mega-nav > li.active > span {
-  color: #f87831;
+  color: #acc91e;
 }
 .t3-megamenu .mega-nav .dropdown-submenu > a::after {
   margin-right: 0;
