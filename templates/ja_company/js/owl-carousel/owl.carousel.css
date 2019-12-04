@@ -46,10 +46,10 @@
 .owl-carousel .owl-item .client-item{
 	padding: 0 5px;
 }
-
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
+	float: left;
 }
 .owl-controls {
 	-webkit-user-select: none;
