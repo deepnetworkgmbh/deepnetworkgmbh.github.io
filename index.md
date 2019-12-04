@@ -182,7 +182,7 @@ layout: default
             });
         })(jQuery);
     </script>
-    <div class="acm-cta style-1" style="background-image: url(images/bg-cta.jpg);">
+    <div class="acm-cta style-1" style="background-image: url(images/dnbgreen.png);">
         <div class="container">
             <div class="cta-content">
                 <h2>New to Deep Network?</h2>
