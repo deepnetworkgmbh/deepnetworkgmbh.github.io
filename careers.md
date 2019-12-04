@@ -44,7 +44,7 @@ layout: default
                     <!--e:Validate structured data-->	
 		            <meta content="Careers" itemprop="headline">
                     <section class="article-content clearfix" itemprop="articleBody">
-			            <h2 style="margin-top: 0; color: #f76818;">Job Openings</h2>
+			            <h2 style="margin-top: 0; color: #acc91e;">Job Openings</h2>
                         <strong>Ref: ML-DE-008</strong><br /><br />
                         Deep Network is a software company founded by ex-MSFT and based in Germany with clients across Europe including Daimler, Liebherr, and Microsoft. We are looking to hire new developers to join our team and help us build the best distributed system solutions.
                         <br /><br />

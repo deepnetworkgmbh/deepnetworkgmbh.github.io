@@ -40,7 +40,7 @@
   text-indent: 3px;
 }
 .acm-features .owl-controls .owl-buttons > div:hover {
-  background: linear-gradient(#f9884a, #f87831);
+  background: linear-gradient(#819617, #acc91e);
   color: #ffffff;
 }
 .acm-features .owl-controls .owl-buttons > div:hover .fa {
@@ -102,11 +102,11 @@
   margin-bottom: 24px;
 }
 .acm-features.style-1 .features-item-inner .feature-action a {
-  border-bottom: 1px solid #f87831;
+  border-bottom: 1px solid #acc91e;
   font-size: 12px;
 }
 .acm-features.style-1 .features-item-inner .feature-action a:hover {
-  color: #f87831;
+  color: #acc91e;
 }
 .acm-features.style-1 .owl-controls {
   bottom: 0;

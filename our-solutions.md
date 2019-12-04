@@ -93,7 +93,7 @@ layout: default
                         </div>
                         <hr>
                         <div class="row" style="margin:0 auto; text-align: center;">
-                            <h2 style="color: #f76818;">Highlights</h2>
+                            <h2 style="color: #acc91e;">Highlights</h2>
                             <br />
                             <div class="col-md-4" style="text-align: center;">
                                 <div class="components">                                    
@@ -145,7 +145,7 @@ layout: default
 	</div>
 </div>
 <div class="section-wrap t3-content-bottom ">
-    <div class="acm-cta style-1" style="background-image: url(images/bg-cta.jpg);">
+    <div class="acm-cta style-1" style="background-image: url(images/dnbgreen.png);">
         <div class="container">
             <div class="cta-content">
                 <h2>Start Shaping the Future Now</h2>
