@@ -714,16 +714,6 @@ html[dir="ltr"] .off-canvas-right.old-ie .t3-off-canvas {
 .t3-off-canvas .t3-off-canvas-body .nav > li > span .caret {
   display: none;
 }
-.t3-off-canvas .t3-off-canvas-body .nav > li.dropdown > a:before,
-.t3-off-canvas .t3-off-canvas-body .nav > li.dropdown > span:before {
-  content: "\f0da";
-  font-family: "FontAwesome";
-  margin-right: 5px;
-  transition: 0.2s;
-  font-weight: 400;
-  font-size: 11px;
-  float: right;
-}
 .t3-off-canvas .t3-off-canvas-body .nav > li.active > a,
 .t3-off-canvas .t3-off-canvas-body .nav > li.active > span {
   background: transparent;
