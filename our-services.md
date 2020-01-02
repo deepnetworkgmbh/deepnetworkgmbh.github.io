@@ -28,7 +28,7 @@ layout: default
                     <meta itemprop="inLanguage" content="en-GB" />
                     <meta itemprop="url" content="/deepnetwork/our-services" />
                     <meta itemscope itemprop="mainEntityOfPage" itemtype="http://schema.org/WebPage"  itemid="/deepnetwork/our-services" />
-                    <meta content="2019-10-22T07:00:11+00:00" itemprop="dateModified">
+                    <meta content="2020-01-01T10:00:00+00:00" itemprop="dateModified">
                     <meta content="2019-04-10T08:23:45+00:00" itemprop="datePublished">
                     <span itemprop="author" style="display: none;">
                         <span itemprop="name">Super User</span>
@@ -52,34 +52,45 @@ layout: default
                             <br /><br />
                             <h2>Data</h2>
                             Rise of the software with its reach into every aspect of the business together with the advancements in networking meant one thing: more data. More data not only because we can have access to more data but now we can do more with data.
-                            <br /><br />
-                            We can help you with,
+                            <br/>
+                            <br />
+                            We can help you make the most out of your data:
                             <ul>
-                                <li>Data collection from your or 3rd party apps and services</li>
-                                <li>Data analysis to find patterns</li>
-                                <li>Machine learning to bring the meaning out </li>
-                                <li>Data Modeling</li>
-                                <li>Data Visualisations to present your data in a meaningful way</li>
+                                <li>Data collection from your own or 3rd party apps and services.</li>
+                                <li>Data Visualisations and dashboards to present your data in a meaningful way via Azure and PowerBI.</li>
+                                <li>Data Visualisations on the web via frameworks like D3JS.</li>
+                                <li>Data processing pipelines on various platforms including Azure via ADLA/U-SQL, Databricks, Sql Warehouse to better analyze your data.</li>
+                                <li>Machine learning model training for Classification & Regression problems, deployment and management as a service.</li>
                                 <li>DB Operations: Microsoft SQL Server, PostgreSQL (deploy, scale, maintain, design)</li>
-                                <li>Data Pipelines</li>
-                                <li>ML Model Training - Classification & Regression problems</li>
                             </ul>
                             <br />
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="images/python-logo.png" title="Python" class="centered"><br /><br />
+                                    <img src="images/python-logo.png" alt="Python" title="Python" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/sql-server-logo.png" title="Microsoft SQL Server" class="centered"><br /><br />
+                                    <img src="images/sql-server-logo.png" alt="Microsoft SQL Server" title="Microsoft SQL Server" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/postgre-sql-logo.png" title="PostgreSQL" class="centered"><br /><br />
+                                    <img src="images/postgre-sql-logo.png" alt="PostgreSQL" title="PostgreSQL" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/azure-logo.png" title="Microsoft Azure" class="centered"><br /><br />
+                                    <img src="images/azure-logo.png" alt="Microsoft Azure" title="Microsoft Azure" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/scikit-logo.png" title="SciKit" class="centered"><br /><br />
+                                    <img src="images/scikit-logo.png" alt="SciKit" title="SciKit" class="centered">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/databricks.png" alt="databricks" title="databricks" class="centered">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/d3js.png" alt="D3JS" title="D3JS" class="centered">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/apache-spark.png" alt="Apache Spark" title="Apache Spark" class="centered">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/azuresqlwarehouse.png" alt="Azure SQL Data Warehouse" title="Azure SQL Data Warehouse" class="centered">
                                 </div>
                             </div>		
                             <br />
@@ -120,13 +131,35 @@ layout: default
                             </div>
                             <br /><br />
                             <h2>Services</h2>
-                            The backbone of all successful apps is high quality services. Services, also can stand on their own to enabled 3rd party scenarios. We can build fast and performant, highly reliable, and secure services available through any online platform.<br />
+                            The backbone of all successful apps is high quality services. Services, also can stand on their own to enable 3rd party scenarios. We can build fast and performant, highly reliable, and secure services available through any online platform.<br />
+                            
+                            <h3>Distributed Systems</h3>
+                            Highly scalable and reliable distributed systems for your services.
                             <ul>
-                                <li>Distributed Systems</li>
-                                <li>Microservices (Kubernetes, Docker)</li>
+                                <li>Microservices built on Kubernetes, the de facto orchestration solution.</li>
+                                <li>Most advanced operations & management stack:</li>
+                                <ul>
+                                    <li>Logging pipeline for ease of debugging, rela time issue investigation via EFK stack.</li>
+                                    <li>Monitoring and alerting solution to increase uptime, detect issues early on via Prometheus & Grafana.</li>
+                                    <li>Tracing and network level monitoring for in depth understanding of data flow via Jaeger & istio</li>
+                                </ul>
+                            </ul>
+                            <h3>Cloud Migration / Digitalisation</h3>
+                            Migrate your existing solutions to cloud stack powered by Azure, Amazon, or Google to increase reliability while reducing the cost of operation. Enable much richer experiences by taking advantage of the latest tech with very little hassle.
+                            <ul>
+                                <li>Bridge your internal network with cloud to migrate your solution in multiple stages without interruption.</li>
+                                <li>Carry over your solutions to various cloud services (IaaS, PaaS, SaaS) to reduce management overhead.</li>
+                                <li>Build cloud provider independent solutions to maximize flexibility.</li>
                             </ul>
                             <br /> 
                             <h2>DevOps</h2>
+                            We can help you fully automate your systems to embrace agile development and lower cost of release management. 
+                            <ul>
+                                <li>CI/CD pipelines on various platforms like Azure DevOps and Jenkins to reliably deliver your products.</li>
+                                <li>Testing at various stages of your system to always deliver high quality products, catch issues early on and automate reporting to increase visibility and predictability.</li>
+                                <li>Integrate various 3rd party scanners to your pipelines to automatically catch security vulnerabilities in your cluster.</li>
+                                <li>Manage 3rd party components in your system such as Elasticsearch, Kibana, Prometheus for high reliability so that you can focus on your business logic.</li>
+                            </ul>
                             <div class="row">
                                 <div class="col-md-4">
                                     <img src="images/elasticsearch-logo.png" title="ElasticSearch" class="centered"><br /><br />
