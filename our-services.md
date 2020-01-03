@@ -58,7 +58,7 @@ layout: default
                             <ul>
                                 <li>Data collection from your own or 3rd party apps and services.</li>
                                 <li>Data Visualisations and dashboards to present your data in a meaningful way via Azure and PowerBI.</li>
-                                <li>Data Visualisations on the web via frameworks like D3JS.</li>
+                                <li>Data Visualisations on the web via frameworks like D3.js.</li>
                                 <li>Data processing pipelines on various platforms including Azure via ADLA/U-SQL, Databricks, Sql Warehouse to better analyze your data.</li>
                                 <li>Machine learning model training for Classification & Regression problems, deployment and management as a service.</li>
                                 <li>DB Operations: Microsoft SQL Server, PostgreSQL (deploy, scale, maintain, design)</li>
@@ -84,7 +84,7 @@ layout: default
                                     <img src="images/databricks.png" alt="databricks" title="databricks" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/d3js.png" alt="D3JS" title="D3JS" class="centered">
+                                    <img src="images/d3js.png" alt="D3.js" title="D3.js" class="centered">
                                 </div>
                                 <div class="col-md-4">
                                     <img src="images/apache-spark.png" alt="Apache Spark" title="Apache Spark" class="centered">
