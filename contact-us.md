@@ -6,6 +6,10 @@ layout: default
 {% include header.html %}
 {% include navigation.html %}
 
+<script src="http://maps.google.com/maps/api/js?language=en-GB&key=AIzaSyDIE6SiLMRzA-_zUPis9FVkazPF9NRO5po" type="text/javascript"></script>
+<script src="modules/mod_bt_googlemaps/tmpl/js/btbase64.min.js" type="text/javascript"></script>
+<script src="modules/mod_bt_googlemaps/tmpl/js/default.js" type="text/javascript"></script>
+
 <!-- MASTHEAD -->
 <div class="wrap t3-masthead ">
     <div class="ja-masthead" style="background-image: url('images/titles/contact-us.jpg')">
@@ -82,6 +86,54 @@ layout: default
 </div> 
 <div class="section-wrap t3-content-bottom ">
     <div id="cavas_id173" class="bt-googlemaps"></div>
+    <script type="text/javascript">
+        var config = {
+            mapType:'roadmap',
+            width:'auto',
+            height:'350',
+            cavas_id:"cavas_id173", 
+            zoom:15,
+            zoomControl:true,
+            scaleControl:true,
+            panControl:true,
+            mapTypeControl:true,
+            streetViewControl:true,
+            overviewMapControl:true,
+            draggable:true,
+            disableDoubleClickZoom:false,
+            scrollwheel:true,
+            weather:0,
+            temperatureUnit:'f',
+            replaceMarkerIcon:1,
+            displayWeatherInfo:1,
+            owm_api: "", 
+            mapCenterType:"address",
+            mapCenterAddress:"Landsbergerstr. 302 Munich GERMANY",
+            mapCenterCoordinate	:"40.7143528, -74.0059731",
+            enableStyle:"0",
+            styleTitle:"BT Map",
+            createNewOrDefault:"createNew",
+            enableCustomInfoBox:"0",
+            boxPosition:"-150,-155",
+            closeBoxMargin:"-9px",
+            closeBoxImage:"",
+            url:"http://www.otomobilgi.com/deepnetwork/"
+        };
+        var boxStyles = {
+            "background":"#ffffff",
+            "opacity":" 0.85",
+            "width":" 280px",
+            "height":"100px",
+            "border":" 1px solid grey",
+            "borderRadius":"3px",
+            "padding":" 10px",
+            "boxShadow":"30px 10px 10px 1px grey"
+        };
+        var markersCode ="W3sibWFya2VyVGl0bGUiOiJEZWVwIE5ldHdvcmsgR21iSCIsIm1hcmtlclR5cGUiOiJhZGRyZXNzIiwibWFya2VyVmFsdWUiOiJMYW5kc2JlcmdlcnN0ci4gMzAyIE11bmljaCBHRVJNQU5ZIiwibWFya2VySWNvbiI6IiIsIm1hcmtlclNob3dJbmZvV2luZG93IjoiMSIsIm1hcmtlckluZm9XaW5kb3ciOiIifV0="; 
+        var stylesCode ="W10="; 
+        initializeMap(config, markersCode, stylesCode, boxStyles);
+       
+    </script>
 </div>
 
 {% include backtotop.html %}  
