@@ -19,7 +19,7 @@ layout: default
                     <div class="features-content features-content-center">
                         <div class="row">
                             <div class="features-item ">
-                                <a href="who-we-are.html"><h2>WHAT WE DOnt</h2></a>
+                                <a href="who-we-are.html"><h2>Who We Are</h2></a>
                                 <p>Deep Network GmbH is a Munich based software house and a consultancy company founded by ex-Microsoft developers.
                                  Drawing from our decades of experience building first class software we help our clients achieve their business goals
                                   taking advantage of latest and greatest technology and approaches available today.
