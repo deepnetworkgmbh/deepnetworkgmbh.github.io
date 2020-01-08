@@ -10,7 +10,7 @@ layout: default
     <div class="container">
         <ul class="nav nav-tabs" id="tab94">
             <li>
-                <a data-toggle="tab" href="#module-94">WHAT WE DO</a>
+                <a data-toggle="tab" href="#module-94">Who We Are</a>
             </li>
         </ul>
         <div class="tab-content">
@@ -19,12 +19,11 @@ layout: default
                     <div class="features-content features-content-center">
                         <div class="row">
                             <div class="features-item ">
-                                <h2>WHAT WE DO</h2>
-                                <p>If you’re an ISV or an organization that develops software and SaaS for
-                                    resale or internal use, we offer you the senior guidance you need to move
-                                    forward with confidence. We excel at building processes that accelerate the
-                                    research cycle, synthesize stakeholder requirements, improve ROI, and
-                                    deliver a better product.</p>
+                                <a href="who-we-are.html"><h2>Who We Are</h2></a>
+                                <p>Deep Network GmbH is a Munich based software house and a consultancy company founded by ex-Microsoft developers.
+                                 Drawing from our decades of experience building first class software we help our clients achieve their business goals
+                                  taking advantage of latest and greatest technology and approaches available today.
+                                 </p>
                             </div>
                         </div>
                     </div>
