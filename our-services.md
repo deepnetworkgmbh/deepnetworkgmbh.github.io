@@ -48,7 +48,7 @@ layout: default
                             <h2>Vision</h2>
                             We live in an age where software is ubiquitous. Every company from every industry now has to leverage software one way or another to stay in the ever-competitive game. There is almost no problem that cannot be made easier if not outright solved with the help of computers and software.
                             <br /><br />
-                            Even though there are many ways of slicing software stack, we prefer to group our solutions into three distinct layers: data, apps, and services; and we complement these with devops and security services.
+                            Even though there are many ways of slicing software stack, we prefer to group our solutions into three distinct layers: data, apps, and services; and we complement these with DevOps and security services.
                             <br /><br />
                             <h2>Data</h2>
                             Rise of the software with its reach into every aspect of the business together with the advancements in networking meant one thing: more data. More data not only because we can have access to more data but now we can do more with data.
@@ -75,7 +75,7 @@ layout: default
                                     <img src="images/postgre-sql-logo.png" alt="PostgreSQL" title="PostgreSQL" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/azure-logo.png" alt="Microsoft Azure" title="Microsoft Azure" class="centered">
+                                   <img src="images/azure-logo.png" alt="Microsoft Azure" title="Microsoft Azure" class="centered">
                                 </div>
                                 <div class="col-md-4">
                                     <img src="images/scikit-logo.png" alt="SciKit" title="SciKit" class="centered">
@@ -95,10 +95,10 @@ layout: default
                             </div>		
                             <br />
                             <h2>Apps</h2>
-                            The term ‘App’ has made its way to popular lexicon with the rise of the mobile applications but the concept Itejhas been around for many years before. Apps are the face of your products. We have many years of experience building apps to cater various solutions and for many types of users. 
+                            The term ‘App’ has made its way to popular lexicon with the rise of the mobile applications but the concept been around for many years before. Apps are the face of your products. We have many years of experience building apps to cater various solutions and for many types of users. 
                             <br /><br />
                             <ul>
-                                <li><strong>Desktop:</strong> Windows & MacOSS Native Apps</li>
+                                <li><strong>Desktop:</strong> Windows & MacOS Native Apps</li>
                                 <li><strong>Mobile:</strong> Android & Safari</li>
                                 <li><strong>Web:</strong> SPA, ASP.Net/MVC, Java/Spring</li>
                             </ul>
@@ -131,15 +131,14 @@ layout: default
                             </div>
                             <br /><br />
                             <h2>Services</h2>
-                            The backbone of all successful apps is high quality services. Services, also can stand on their own to enable 3rd party scenarios. We can build fast and performant, highly reliable, and secure services available through any online platform.<br />
-                            
+                            The backbone of all successful apps is high quality services. Services can also stand on their own to enable 3rd party scenarios. We can build fast and performant, highly reliable, and secure services available through any online platform.<br />
                             <h3>Distributed Systems</h3>
                             Highly scalable and reliable distributed systems for your services.
                             <ul>
                                 <li>Microservices built on Kubernetes, the de facto orchestration solution.</li>
                                 <li>Most advanced operations & management stack:</li>
                                 <ul>
-                                    <li>Logging pipeline for ease of debugging, rela time issue investigation via EFK stack.</li>
+                                    <li>Logging pipeline for ease of debugging, real time issue investigation via EFK stack.</li>
                                     <li>Monitoring and alerting solution to increase uptime, detect issues early on via Prometheus & Grafana.</li>
                                     <li>Tracing and network level monitoring for in depth understanding of data flow via Jaeger & istio</li>
                                 </ul>

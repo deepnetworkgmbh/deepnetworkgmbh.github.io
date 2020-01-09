@@ -49,7 +49,7 @@ layout: default
                             <div class="col-md-6 leadershiptext">
     	                        <h2>Savas Guven</h2>
     	                        <div class="leadershiptitle"><em>Founder</em></div>
-                                Savas’s career passion has been to bring to life technology solutions which boost the competiveness of businesses. As a co-founder of the company, he brings 19 years of experience in the software industry.
+                                Savas’s career passion has been to bring to life technology solutions which boost the competitiveness of businesses. As a co-founder of the company, he brings 19 years of experience in the software industry.
                                 <br /><br />
                                 He has worked as a Developer for 17 years in Microsoft Corp, helping his customers realize their dreams for bringing the technology to the service of their businesses, in multiple countries, with a diverse set of industries. He began his professional life in the CyberSecurity business in Turkey and then joined the ranks of Microsoft Corp in Redmond, WA.
                                 <br /><br />
@@ -62,11 +62,11 @@ layout: default
                             <div class="col-md-6 leadershiptext">
 		                        <h2>Igor Kliushnikov</h2>
 		                        <div class="leadershiptitle"><em>Partner</em></div>
-                                Igor has 10+ years of software development experience. His passion is cloud technologies, highload distributed services, and robustness solutions.
+                                Igor has 10+ years of software development experience. His passion is cloud technologies, high-load distributed services, and robustness solutions.
                                 <br /><br />
                                 During the career, he designed and developed new products from scratch, maintained large legacy codebase, managed distributed teams, introduced Agile practices into the work process
                                 <br /><br />
-                                Igor got a Master degree in Computer Science in Kyiv Polytechnic Institute, Ukraine.
+                                Igor got a Master's degree in Computer Science in Kyiv Polytechnic Institute, Ukraine.
                                 <br /><br />
                                 He tries to follow the latest technologies and practices closely.
                             </div>

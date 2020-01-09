@@ -107,14 +107,14 @@ layout: default
                                 <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-magic"></use></svg>  
                                 </div><br />
                                 <strong>Integrated</strong><br />
-                                Connect your business app to other third party services easily.<br /><br />
+                                Connect your business app to other third-party services easily.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
                                 <div class="components">
                                 <svg class="solutionicon"><use xlink:href="../images/sprite.svg#icon-rocket"></use></svg>  
                                 </div><br />
                                 <strong>Performance</strong><br />
-                                Regardless of your data and transaction size, built-in performance optimization logic ensures you have the fastest experience avaliable.<br /><br />
+                                Regardless of your data and transaction size, built-in performance optimization logic ensures you have the fastest experience available.<br /><br />
                             </div>
                             <div class="col-md-4" style="text-align: center;">
                                 <div class="components">
