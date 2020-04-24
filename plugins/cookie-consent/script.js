@@ -276,7 +276,28 @@
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'UA-152540726-1');	
-	}
-	
+	}	
+
 	}(jQuery));
+
+// sets default language cookie
+function setLanguageCookie(lang) {
+	var d = new Date();
+	var expiresInDays = 365 * 24 * 60 * 60 * 1000;
+	d.setTime( d.getTime() + expiresInDays );
+	var expires = "expires=" + d.toGMTString();
+	document.cookie = 'lang=' + lang + "; " + expires + ";path=/";
+}
 	
+// called when user changes language
+function switchLanguage(lang) {
+	console.log('switching to ' + lang);
+	var currentLocation = window.location;
+	var path = currentLocation.pathname.split('/')[2];
+	window.location.href = '/' + lang + '/' + path;
+	if(jQuery(document).euCookieLawPopup().userAccepted()) {
+		console.log(`writing lang ${lang} to cookie`);
+		setLanguageCookie(lang)
+	}
+}
+

@@ -1,4 +1,6 @@
 ---
+lang: en
+ref: page_ref_our_services
 title: Our Services
 layout: default
 ---
@@ -8,9 +10,9 @@ layout: default
 
 <!-- MASTHEAD -->
 <div class="wrap t3-masthead ">
-    <div class="ja-masthead" style="background-image: url('images/slideshow/envisioning.jpg')">
+    <div class="ja-masthead" style="background-image: url('../images/slideshow/envisioning.jpg')">
         <div class="ja-masthead-detail">
-		    <h3 class="ja-masthead-title">Our Services</h3>
+		    <h3 class="swiper-header">{{ site.data.pages['page_ref_our_services'].title[page.lang] }}</h3>
         </div>
     </div>	
 </div>
@@ -20,7 +22,7 @@ layout: default
 		<!-- MAIN CONTENT -->
 		<div id="t3-content" class="t3-content col-xs-12">
             <div class="page-header clearfix">
-		        <h1 class="page-title">OUR SERVICES</h1>
+		        <h1 class="page-title">{{ site.data.pages['page_ref_our_services'].title[page.lang] }}</h1>
 	        </div>
             <div class="item-page clearfix">
                 <!-- Article -->
@@ -34,7 +36,7 @@ layout: default
                         <span itemprop="name">Super User</span>
                         <span itemtype="https://schema.org/Organization" itemscope="" itemprop="publisher" style="display: none;">
                             <span itemtype="https://schema.org/ImageObject" itemscope="" itemprop="logo">
-                                <img itemprop="url" alt="logo" src="templates/ja_company/images/logo.png">
+                                <img itemprop="url" alt="logo" src="../templates/ja_company/images/logo.png">
                                 <meta content="auto" itemprop="width">
                                 <meta content="auto" itemprop="height">
                             </span>
@@ -66,31 +68,31 @@ layout: default
                             <br />
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="images/python-logo.png" alt="Python" title="Python" class="centered">
+                                    <img src="../images/python-logo.png" alt="Python" title="Python" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/sql-server-logo.png" alt="Microsoft SQL Server" title="Microsoft SQL Server" class="centered">
+                                    <img src="../images/sql-server-logo.png" alt="Microsoft SQL Server" title="Microsoft SQL Server" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/postgre-sql-logo.png" alt="PostgreSQL" title="PostgreSQL" class="centered">
+                                    <img src="../images/postgre-sql-logo.png" alt="PostgreSQL" title="PostgreSQL" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/azure-logo.png" alt="Microsoft Azure" title="Microsoft Azure" class="centered">
+                                    <img src="../images/azure-logo.png" alt="Microsoft Azure" title="Microsoft Azure" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/scikit-logo.png" alt="SciKit" title="SciKit" class="centered">
+                                    <img src="../images/scikit-logo.png" alt="SciKit" title="SciKit" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/databricks.png" alt="databricks" title="databricks" class="centered">
+                                    <img src="../images/databricks.png" alt="databricks" title="databricks" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/d3js.png" alt="D3.js" title="D3.js" class="centered">
+                                    <img src="../images/d3js.png" alt="D3.js" title="D3.js" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/apache-spark.png" alt="Apache Spark" title="Apache Spark" class="centered">
+                                    <img src="../images/apache-spark.png" alt="Apache Spark" title="Apache Spark" class="centered">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/azuresqlwarehouse.png" alt="Azure SQL Data Warehouse" title="Azure SQL Data Warehouse" class="centered">
+                                    <img src="../images/azuresqlwarehouse.png" alt="Azure SQL Data Warehouse" title="Azure SQL Data Warehouse" class="centered">
                                 </div>
                             </div>		
                             <br />
@@ -105,28 +107,28 @@ layout: default
                             <br />
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="images/html5-logo.png" title="HTML5" class="centered"><br /><br />
+                                    <img src="../images/html5-logo.png" title="HTML5" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/css3-logo.png" title="CSS3" class="centered"><br /><br />
+                                    <img src="../images/css3-logo.png" title="CSS3" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/javascript-logo.png" title="Javascript" class="centered"><br /><br />
+                                    <img src="../images/javascript-logo.png" title="Javascript" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/typescript-logo.png" title="Typescript" class="centered"><br /><br />
+                                    <img src="../images/typescript-logo.png" title="Typescript" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/asp-net-logo.png" title="ASP.Net" class="centered"><br /><br />
+                                    <img src="../images/asp-net-logo.png" title="ASP.Net" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/dotnet-core-logo.png" title=".Net Core" class="centered"><br /><br />
+                                    <img src="../images/dotnet-core-logo.png" title=".Net Core" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/seesharp-logo.png" title="C#" class="centered"><br /><br />
+                                    <img src="../images/seesharp-logo.png" title="C#" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/swift-logo.png" title="Swift" class="centered"><br /><br />
+                                    <img src="../images/swift-logo.png" title="Swift" class="centered"><br /><br />
                                 </div>
                             </div>
                             <br /><br />
@@ -162,19 +164,19 @@ layout: default
                             </ul>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="images/elasticsearch-logo.png" title="ElasticSearch" class="centered"><br /><br />
+                                    <img src="../images/elasticsearch-logo.png" title="ElasticSearch" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4 centered">
-                                    <img src="images/kibana-logo.png" title="Kibana" class="centered"><br /><br />
+                                    <img src="../images/kibana-logo.png" title="Kibana" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4 centered">
-                                    <img src="images/prometheus-logo.png" title="Prometheus" class="centered"><br /><br />
+                                    <img src="../images/prometheus-logo.png" title="Prometheus" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4 centered">
-                                    <img src="images/fluentd-logo.png" title="FluentD" class="centered"><br /><br />
+                                    <img src="../images/fluentd-logo.png" title="FluentD" class="centered"><br /><br />
                                 </div>
                                 <div class="col-md-4 centered">
-                                    <img src="images/kubernetes-logo.png" title="Kubernetes" class="centered"><br /><br />
+                                    <img src="../images/kubernetes-logo.png" title="Kubernetes" class="centered"><br /><br />
                                 </div>                            
                             </div>
                         </div>		

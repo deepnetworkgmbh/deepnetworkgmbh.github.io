@@ -1,5 +1,6 @@
 ---
-title: Meet The Leadership
+lang: de
+ref: page_ref_meet_the_leadership
 layout: default
 ---
 
@@ -8,9 +9,9 @@ layout: default
 
 <!-- MASTHEAD -->
 <div class="wrap t3-masthead ">
-    <div class="ja-masthead" style="background-image: url('images/titles/meet-the-leadership.jpg')">
+    <div class="ja-masthead" style="background-image: url('../images/titles/meet-the-leadership.jpg')">
         <div class="ja-masthead-detail">
-    	    <h3 class="ja-masthead-title">Meet The Leadership</h3>
+    	    <h3 class="swiper-header">{{ site.data.pages['page_ref_meet_the_leadership'].title[page.lang] }}</h3>
         </div>
     </div>
 </div>
@@ -21,7 +22,7 @@ layout: default
     	<!-- MAIN CONTENT -->
     	<div id="t3-content" class="t3-content col-xs-12">
             <div class="page-header clearfix">
-    	        <h1 class="page-title">Meet The Leadership</h1>
+    	        <h1 class="page-title">{{ site.data.pages['page_ref_meet_the_leadership'].title[page.lang] }}</h1>
             </div>
             <div class="item-page clearfix">
             <!-- Article -->
@@ -35,7 +36,7 @@ layout: default
                         <span itemprop="name">Super User</span>
                         <span itemtype="https://schema.org/Organization" itemscope="" itemprop="publisher" style="display: none;">
                             <span itemtype="https://schema.org/ImageObject" itemscope="" itemprop="logo">
-                                <img itemprop="url" alt="logo" src="templates/ja_company/images/logo.png">
+                                <img itemprop="url" alt="logo" src="../templates/ja_company/images/logo.png">
                                 <meta content="auto" itemprop="width">
                                 <meta content="auto" itemprop="height">
                             </span>
@@ -55,7 +56,7 @@ layout: default
                                 <br /><br />
     	                        He holds a Master of Science in Computer Engineering from University of Southern California and a 4 USPO patents in Communication. You can always find him tinkering with the latest technologies.
                             </div>
-                            <div class="col-md-6 leadershipphoto"><img src="images/leadership/SavasGuven.jpg" title="Savas Guven"></div>
+                            <div class="col-md-6 leadershipphoto"><img src="../images/leadership/SavasGuven.jpg" title="Savas Guven"></div>
                         </div>
                         <hr>
                         <div class="row leadershiprow">
@@ -70,7 +71,7 @@ layout: default
                                 <br /><br />
                                 He tries to follow the latest technologies and practices closely.
                             </div>
-                            <div class="col-md-6 leadershipphoto"><img src="images/leadership/IgorK.jpg" title="Igor Kliushnikov"></div>
+                            <div class="col-md-6 leadershipphoto"><img src="../images/leadership/IgorK.jpg" title="Igor Kliushnikov"></div>
                         </div>
                         <hr>
                         <div class="row leadershiprow">
@@ -85,7 +86,7 @@ layout: default
                                 <br /><br />
                                 Lead other software developers form all ranges of experience, held scrums, managed planning and project roadmap. Owned various technical areas, worked as a gatekeeper and supported other developers with design and code reviews. Built pipelines for data ingestion, data normalization, analysis via machine learning that process petabytes of data and produce outputs with various schemas from XML to binary.
                             </div>
-                            <div class="col-md-6 leadershipphoto"><img src="images/leadership/FurkanFidan.jpg" title="Furkan Fidan"></div>
+                            <div class="col-md-6 leadershipphoto"><img src="../images/leadership/FurkanFidan.jpg" title="Furkan Fidan"></div>
                         </div>
                         <hr>
                         <div class="row leadershiprow">
@@ -98,7 +99,7 @@ layout: default
                                 <br /><br />
                                 He holds a Bachelor of Science degree in Computer Engineering and a Master of Science degree in Information Systems from Middle East Technical University.
                             </div>
-                            <div class="col-md-6 leadershipphoto"><img src="images/leadership/GiraySimsek.jpg" title="Giray Simsek"></div>
+                            <div class="col-md-6 leadershipphoto"><img src="../images/leadership/GiraySimsek.jpg" title="Giray Simsek"></div>
                         </div>
                     </section>
                 </article>

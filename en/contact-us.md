@@ -1,4 +1,6 @@
 ---
+lang: en
+ref: page_ref_contact_us
 title: Contact Us
 layout: default
 ---
@@ -7,14 +9,14 @@ layout: default
 {% include navigation.html %}
 
 <script src="http://maps.google.com/maps/api/js?language=en-GB&key=AIzaSyDIE6SiLMRzA-_zUPis9FVkazPF9NRO5po" type="text/javascript"></script>
-<script src="modules/mod_bt_googlemaps/tmpl/js/btbase64.min.js" type="text/javascript"></script>
-<script src="modules/mod_bt_googlemaps/tmpl/js/default.js" type="text/javascript"></script>
+<script src="../modules/mod_bt_googlemaps/tmpl/js/btbase64.min.js" type="text/javascript"></script>
+<script src="../modules/mod_bt_googlemaps/tmpl/js/default.js" type="text/javascript"></script>
 
 <!-- MASTHEAD -->
 <div class="wrap t3-masthead ">
-    <div class="ja-masthead" style="background-image: url('images/titles/contact-us.jpg')">
+    <div class="ja-masthead" style="background-image: url('../images/titles/contact-us.jpg')">
         <div class="ja-masthead-detail">
-		    <h3 class="ja-masthead-title">Contact Us</h3>
+		    <h3 class="swiper-header">{{ site.data.pages['page_ref_contact_us'].title[page.lang] }}</h3>
         </div>
     </div>	
 </div>
@@ -24,7 +26,7 @@ layout: default
     	<!-- MAIN CONTENT -->
 		<div id="t3-content" class="t3-content col-xs-12">
 	        <div class="page-header clearfix">
-		        <h1 class="page-title">CONTACT US</h1>
+		        <h1 class="page-title">{{ site.data.pages['page_ref_contact_us'].title[page.lang] }}</h1>
 	        </div>
             <div class="item-page clearfix">
                 <!-- Article -->
@@ -38,7 +40,7 @@ layout: default
                         <span itemprop="name">Super User</span>
                         <span itemtype="https://schema.org/Organization" itemscope="" itemprop="publisher" style="display: none;">
                             <span itemtype="https://schema.org/ImageObject" itemscope="" itemprop="logo">
-                                <img itemprop="url" alt="logo" src="templates/ja_company/images/logo.png">
+                                <img itemprop="url" alt="logo" src="../templates/ja_company/images/logo.png">
                                 <meta content="auto" itemprop="width">
                                 <meta content="auto" itemprop="height">
                             </span>
@@ -75,7 +77,7 @@ layout: default
                                 GERMANY</a>
                         	</div>
                             <div class="col-md-3" style="text-align: right;">
-                                <img src="images/logo.png" title="Deep Network GmbH" style="margin: 0 auto">
+                                <img src="../images/logo.png" title="Deep Network GmbH" style="margin: 0 auto">
                             </div>
                         </div>
                     </section>

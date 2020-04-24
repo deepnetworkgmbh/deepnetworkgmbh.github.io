@@ -1,0 +1,94 @@
+page_ref_home:
+    title:
+        en: "Home"
+        de: "Startseite"
+page_ref_careers:
+    title:
+        en: "Careers"
+        de: "Karriere"
+page_ref_contact_us:
+    title:
+        en: "Contact us"
+        de: "Kontaktiere uns"
+page_ref_our_services:
+    title:
+        en: "Our Services"
+        de: "Unsere Leistungen"
+page_ref_our_solutions:
+    title:
+        en: "Our Solutions"
+        de: "Unsere Lösungen"
+page_ref_about_us:
+    title:
+        en: "About us"
+        de: "Über uns"
+page_ref_who_we_are:
+    title:
+        en: "Who We Are"
+        de: "Wer wir sind"
+page_ref_meet_the_leadership:
+    title:
+        en: "Meet The Leadership"
+        de: "Treffen Sie die Führung"
+page_ref_legal_notice:
+    title:
+        en: "Legal Notice"
+        de: "Impressum"
+page_ref_cookies:
+    title:
+        en: "Cookies"
+        de: "Cookies"
+page_ref_privacy_statement:
+    title:
+        en: "Privacy Statement"
+        de: "Datenschutzerklärung"
+page_ref_request_a_demo:
+    title:
+        en: "Request a demo"
+        de: "Eine Demo anfordern"
+general:
+    follow_us:
+        en: "Follow Us"
+        de: "Folge uns"
+    learn_more:
+        en: "Learn more"
+        de: "Mehr erfahren"
+    request_a_demo:
+        en: "Request a demo"
+        de: "Eine Demo anfordern"
+slideshow:
+    devops:
+        title:
+            en: "Devops"
+            de: "Devops"
+        description:
+            en: "Fully automate your development and release workflows to embrace agile development while taking advantage of latest and greatest observability systems."
+            de: "Fully automate your development and release workflows to embrace agile development while taking advantage of latest and greatest observability systems."
+    microservices:
+        title:
+            en: "Microservices"
+            de: "Microservices"
+        description:
+            en: "The backbone of all successful apps is high quality services. Let us help you build performant, highly reliable and secure services on the platform that fits best to your needs."
+            de: "The backbone of all successful apps is high quality services. Let us help you build performant, highly reliable and secure services on the platform that fits best to your needs."
+    bigdata:
+        title:
+            en: "Big Data"
+            de: "Big Data"
+        description:
+            en: "Let us help you with building first class data pipelines, ML models for classification and regression problems, and visualisations to make best use of your data efficiently and in a cost effective way."
+            de: "Let us help you with building first class data pipelines, ML models for classification and regression problems, and visualisations to make best use of your data efficiently and in a cost effective way."
+    apps:
+        title:
+            en: "Apps"
+            de: "Apps"
+        description:
+            en: "We have experience in building native apps for all the popular platforms including mobile, desktop, and the web. Let us build the app you need or help you improving your existing solutions."
+            de: "We have experience in building native apps for all the popular platforms including mobile, desktop, and the web. Let us build the app you need or help you improving your existing solutions."
+    support:
+        title:
+            en: "Support"
+            de: "Unterstützung"
+        description:
+            en: "We can support you in any part of your software development process drawing from our decades of experience building high quality software that are still used by millions today."
+            de: "We can support you in any part of your software development process drawing from our decades of experience building high quality software that are still used by millions today."

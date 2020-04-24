@@ -73,3 +73,7 @@ em {
 .swiper-button-next svg {
     margin-right:-4px;
 }
+
+.navbar-nav > li > a.toUpper {
+    text-transform: uppercase;
+}
