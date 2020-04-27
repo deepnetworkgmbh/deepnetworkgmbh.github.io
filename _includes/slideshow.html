@@ -1,160 +1,69 @@
-<div class="wrap t3-slideshow "><!-- SLIDESHOW -->
-    <div id="acm-slideshow-90" class="slideshow">
-        <div class="swiper-container slideshow-top">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="item active">
-                        <div class="img-bg has-mask">
-                            <img alt="Envisioning" src="images/slideshow/envisioning.jpg" />
-                        </div>
-                        <div class="slider-content container">
-                            <div class="slider-content-inner" data-type-animation="left-right">
-                                <h1 class="item-title ja-animation" data-delay-transition="2">DevOps</h1>
-                                <p class="hidden-xs item-desc ja-animation" data-delay-transition="3">Fully
-                                automate your development and release workflows to embrace agile development
-                                while taking advantage of latest and greatest observability systems.</p>
-                                <div class="group-action ja-animation" data-delay-transition="4">
-                                    <a href="our-services.html" class="btn btn-primary btn-lg"
-                                        data-delay-transition="4">LEARN MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item ">
-                        <div class="img-bg has-mask">
-                            <img alt="Custom Code" src="images/slideshow/custom-code.jpg" />
-                        </div>
-                        <div class="slider-content container">
-                            <div class="slider-content-inner" data-type-animation="bottom-top">
-                                <h1 class="item-title ja-animation" data-delay-transition="2">Microservices</h1>
-                                <p class="hidden-xs item-desc ja-animation" data-delay-transition="3">The backbone
-                                 of all successful apps is high quality services. Let us help you build performant,
-                                 highly reliable and secure services on the platform that fits best to your needs.</p>
-                                <div class="group-action ja-animation" data-delay-transition="4">
-                                    <a href="our-services.html" class="btn btn-primary btn-lg"
-                                        data-delay-transition="4">LEARN MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item ">
-                        <div class="img-bg has-mask">
-                            <img alt="Architecture Advisory" src="images/slideshow/architecture-advisory.jpg" />
-                        </div>
-                        <div class="slider-content container">
-                            <div class="slider-content-inner" data-type-animation="left-right">
-                                <h1 class="item-title ja-animation" data-delay-transition="2">Big Data</h1>
-                                <p class="hidden-xs item-desc ja-animation" data-delay-transition="3">Let us help
-                                 you with building first class data pipelines, ML models for classification and
-                                  regression problems, and visualisations to make best use of your data efficiently
-                                  and in a cost effective way.
-                                </p>
-                                <div class="group-action ja-animation" data-delay-transition="4">
-                                    <a href="our-services.html" class="btn btn-primary btn-lg"
-                                        data-delay-transition="4">LEARN MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item ">
-                        <div class="img-bg has-mask">
-                            <img alt="Architecture Review" src="images/slideshow/architecture-review.jpg" />
-                        </div>
-                        <div class="slider-content container">
-                            <div class="slider-content-inner" data-type-animation="left-right">
-                                <h1 class="item-title ja-animation" data-delay-transition="2">Apps
-                                </h1>
-                                <p class="hidden-xs item-desc ja-animation" data-delay-transition="3">We have
-                                 experience in building native apps for all the popular platforms including
-                                mobile, desktop, and the web. Let us build the app you need or help you improving
-                                your existing solutions.</p>
-                                <div class="group-action ja-animation" data-delay-transition="4">
-                                    <a href="our-services.html" class="btn btn-primary btn-lg"
-                                        data-delay-transition="4">LEARN MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item ">
-                        <div class="img-bg has-mask">
-                            <img alt="Lifecycle Management" src="images/slideshow/lifecycle-management.jpg" />
-                        </div>
-                        <div class="slider-content container">
-                            <div class="slider-content-inner" data-type-animation="left-right">
-                                <h1 class="item-title ja-animation" data-delay-transition="2">Support</h1>
-                                <p class="hidden-xs item-desc ja-animation" data-delay-transition="3">We can support
-                                 you in any part of your software development process drawing from our decades of experience
-                                building high quality software that are still used by millions today.</p>
-                                <div class="group-action ja-animation" data-delay-transition="4">
-                                    <a href="our-services.html" class="btn btn-primary btn-lg"
-                                        data-delay-transition="4">LEARN MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- //SLIDESHOW -->
+<div class="swiper-container" style="margin-top: 10px;">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" style="background: url(../images/slideshow/envisioning.jpg);">
+            <h1 class="swiper-header">
+                {{ site.data.pages.slideshow.devops.title[page.lang] }}
+            </h1>
+            <p class="swiper-subtext">
+                {{ site.data.pages.slideshow.devops.description[page.lang] }}
+            </p>            
+            <a href="our-services.html" class="btn btn-primary btn-lg">
+                <span style="text-transform:uppercase">{{ site.data.pages.general.learn_more[page.lang] }}</span>
+            </a>
         </div>
-        <div class="swiper-thumbs-wraper">
-            <div class="container">
-                <div class="swiper-container slideshow-thumbs hidden-xs hidden-sm hidden-md">
-                    <div class="swiper-wrapper">
-                        <!-- Wrapper for slides -->
-                        <div class="swiper-slide">
-                            <div class="swiper-thumbs">
-                                <div class="item-image">
-                                    <img alt="Envisioning" src="images/slideshow/envisioning.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-thumbs">
-                                <div class="item-image">
-                                    <img alt="Custom Code" src="images/slideshow/custom-code.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-thumbs">
-                                <div class="item-image">
-                                    <img alt="Architecture Advisory" src="images/slideshow/architecture-advisory.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-thumbs">
-                                <div class="item-image">
-                                    <img alt="Architecture Review" src="images/slideshow/architecture-review.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-thumbs">
-                                <div class="item-image">
-                                    <img alt="Lifecycle Management" src="images/slideshow/lifecycle-management.jpg" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add Arrows -->
-                <div class="swiper-button-next swiper-button-white">
-                    <svg class="swipericons"><use xlink:href="../images/sprite.svg#icon-caret-right"></use></svg>
-                </div>
-                <div class="swiper-button-prev swiper-button-white">
-                    <svg class="swipericons"><use xlink:href="../images/sprite.svg#icon-caret-left"></use></svg>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
+        <div class="swiper-slide" style="background: url(../images/slideshow/custom-code.jpg);">
+            <h1 class="swiper-header">
+                {{ site.data.pages.slideshow.microservices.title[page.lang] }}
+            </h1>
+            <p class="swiper-subtext">
+                {{ site.data.pages.slideshow.microservices.description[page.lang] }}
+            </p>
+            <a href="our-services.html" class="btn btn-primary btn-lg">
+                <span style="text-transform:uppercase">{{ site.data.pages.general.learn_more[page.lang] }}</span>
+            </a>
+        </div>
+        <div class="swiper-slide" style="background: url(../images/slideshow/architecture-advisory.jpg);">
+            <h1 class="swiper-header">
+                {{ site.data.pages.slideshow.bigdata.title[page.lang] }}
+            </h1>
+            <p class="swiper-subtext">
+                {{ site.data.pages.slideshow.bigdata.description[page.lang] }}
+            </p>            
+            <a href="our-services.html" class="btn btn-primary btn-lg">
+                <span style="text-transform:uppercase">{{ site.data.pages.general.learn_more[page.lang] }}</span>
+            </a>
+        </div>
+        <div class="swiper-slide" style="background: url(../images/slideshow/architecture-review.jpg);">
+            <h1 class="swiper-header">
+                {{ site.data.pages.slideshow.apps.title[page.lang] }}
+            </h1>
+            <p class="swiper-subtext">
+                {{ site.data.pages.slideshow.apps.description[page.lang] }}
+            </p>            
+            <a href="our-services.html" class="btn btn-primary btn-lg">
+                <span style="text-transform:uppercase">{{ site.data.pages.general.learn_more[page.lang] }}</span>
+            </a>
+        </div>
+        <div class="swiper-slide" style="background: url(../images/slideshow/lifecycle-management.jpg);">
+            <h1 class="swiper-header">
+                {{ site.data.pages.slideshow.support.title[page.lang] }}
+            </h1>
+            <p class="swiper-subtext">
+                {{ site.data.pages.slideshow.support.description[page.lang] }}
+            </p>            
+            <a href="our-services.html" class="btn btn-primary btn-lg">
+                <span style="text-transform:uppercase">{{ site.data.pages.general.learn_more[page.lang] }}</span>
+            </a>
         </div>
     </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
 </div>
-<!-- //SLIDESHOW -->

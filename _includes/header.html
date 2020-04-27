@@ -1,3 +1,11 @@
+{% assign current_en = 'language' %}
+{% assign current_de = 'language' %}
+{% if page.lang == 'en' %}
+    {% assign current_en = 'language language-selected' %}
+{% endif %}
+{% if page.lang == 'de' %}
+    {% assign current_de = 'language language-selected' %}
+{% endif %}
 
 <!-- HEADER -->
 <header id="t3-header" class="t3-header ">
@@ -7,7 +15,7 @@
             <div class="col-xs-12 col-sm-5 col-lg-6 logo">
                 <div class="logo-image">
                     <a href="/" title="Deep Network GmbH">
-                        <img class="logo-img" src="images/logo.png" alt="Deep Network GmbH" />
+                        <img class="logo-img" src="../images/logo.png" alt="Deep Network GmbH" />
                         <span>Deep Network GmbH</span>
                     </a>
                     <small class="site-slogan"></small>
@@ -16,25 +24,25 @@
             <!-- //LOGO -->
             <div class="head-right colxs-12 col-sm-7 col-lg-6">
                 <!-- HEAD RIGHT -->
-                <div class="head-right ">
-                    <div class="custom">
-                        <ul class="address-list">
-                            <li>
-                                <label>
-                                    <a href="mailto:info@deepnetwork.com">
-                                    <svg class="headericon"><use xlink:href="../images/sprite.svg#icon-envelope"></use></svg>    
-                                     info@deepnetwork.com</a>
-                                </label>
-                            </li>
-                            <li>
-                                <label>
-                                    <a href="tel:+49 (0) 89 2316 6638">
-                                    <svg class="headericon"><use xlink:href="../images/sprite.svg#icon-phone"></use></svg>
-                                     +49 (0) 89 2316 6638</a>
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="head-right">
+                    <span class="language-selected" style="margin-right:27px;">
+                        <a href="mailto:info@deepnetwork.com">
+                            <svg class="headericon"><use xlink:href="../images/sprite.svg#icon-envelope"></use></svg>    
+                        info@deepnetwork.com
+                        </a>
+                    </span>
+                    <span class="language-selected">
+                        <a href="tel:+49 (0) 89 2316 6638">
+                            <svg class="headericon"><use xlink:href="../images/sprite.svg#icon-phone"></use></svg>
+                            +49 (0) 89 2316 6638
+                        </a>
+                    </span>
+                </div>
+                <div class="language-picker">
+                    <div onclick="switchLanguage('de')" class="{{ current_de }}">
+                        <img src="../images//germany-flag.png" /> DE</div>
+                    <div onclick="switchLanguage('en')" class="{{ current_en }}">
+                        <img src="../images//united-kingdom-flag.png" > EN</div>
                 </div>
                 <!-- //HEAD RIGHT -->
             </div>
@@ -42,3 +50,31 @@
     </div>
 </header>
 <!-- //HEADER -->
+<style>
+    .language-picker {
+        position:absolute;
+        top:5px;
+        right:10px;
+        width:90px;
+        font-size:10px;
+    }
+    .language {
+        margin-bottom:0;
+        padding-bottom:0;
+        margin-right: 7px;
+        cursor: pointer;
+        width: 35px;
+        line-height: 10px;
+        float:left;
+        padding-bottom: 4px;
+    }
+
+    .language-selected {
+        border-bottom: solid 1px #acc91e
+    }
+
+    .language img {
+        width:18px;
+        margin-top:-3px;
+    }
+</style>

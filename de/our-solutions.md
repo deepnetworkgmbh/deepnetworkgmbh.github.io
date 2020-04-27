@@ -1,5 +1,6 @@
 ---
-title: Our Solutions
+lang: de
+ref: page_ref_our_solutions
 layout: default
 ---
 
@@ -9,9 +10,9 @@ layout: default
 <!-- MASTHEAD -->
 
 <div class="wrap t3-masthead ">
-    <div class="ja-masthead" style="background-image: url('images/titles/our-solutions.jpg')">
+    <div class="ja-masthead" style="background-image: url('../images/titles/our-solutions.jpg')">
         <div class="ja-masthead-detail">
-		    <h3 class="ja-masthead-title">Our Solutions</h3>
+		    <h3 class="swiper-header">{{ site.data.pages['page_ref_our_solutions'].title[page.lang] }}</h3>
         </div>
     </div>
 </div>
@@ -22,7 +23,7 @@ layout: default
 		<!-- MAIN CONTENT -->
 		<div id="t3-content" class="t3-content col-xs-12">
             <div class="page-header clearfix">
-		        <h1 class="page-title">OUR SOLUTIONS</h1>
+		        <h1 class="page-title">{{ site.data.pages['page_ref_our_solutions'].title[page.lang] }}</h1>
         	</div>
             <div class="item-page presalesqa clearfix">
                 <!-- Article -->
@@ -36,7 +37,7 @@ layout: default
                         <span itemprop="name">Super User</span>
                         <span itemtype="https://schema.org/Organization" itemscope="" itemprop="publisher" style="display: none;">
                             <span itemtype="https://schema.org/ImageObject" itemscope="" itemprop="logo">
-                                <img itemprop="url" alt="logo" src="templates/ja_company/images/logo.png">
+                                <img itemprop="url" alt="logo" src="../templates/ja_company/images/logo.png">
                                 <meta content="auto" itemprop="width">
                                 <meta content="auto" itemprop="height">
                             </span>
@@ -47,10 +48,10 @@ layout: default
                     <meta content="Our Solutions" itemprop="headline">
                     <section class="article-content clearfix" itemprop="articleBody">
                         <div style="margin: 0 auto; text-align: center;">
-                            <img src="images/primeapps-logo.png" title="PrimeApps" alt="PrimeApps" style="margin: 0 auto;">
+                            <img src="../images/primeapps-logo.png" title="PrimeApps" alt="PrimeApps" style="margin: 0 auto;">
                             <span style="font-size: 20px;">Ultimate Low-Code Digital Transformation Platform</span>
                             <br /><br />
-                            <img src="images/sl1.png" title="PrimeApps" alt="PrimeApps" style="margin: 0 auto;">
+                            <img src="../images/sl1.png" title="PrimeApps" alt="PrimeApps" style="margin: 0 auto;">
                         </div>
                         <hr>
                         <div class="row solutionsrow">
@@ -68,13 +69,13 @@ layout: default
                                 </ul>
                             </div>
                             <div class="col-md-6 solutionsphoto">
-                                <img src="images/primeapps-1.jpg" title="Future of App Development">
+                                <img src="../images/primeapps-1.jpg" title="Future of App Development">
                             </div>
                         </div>
                         <hr>
                         <div class="row solutionsrow">
                             <div class="col-md-6 solutionsphoto">
-                                <img src="images/primeapps-2.jpg" title="No Coding Skills Required">
+                                <img src="../images/primeapps-2.jpg" title="No Coding Skills Required">
                             </div>
                             <div class="col-md-6 solutionstext">
                                 <h2>No coding skills required</h2>
@@ -145,11 +146,13 @@ layout: default
 	</div>
 </div>
 <div class="section-wrap t3-content-bottom ">
-    <div class="acm-cta style-1" style="background-image: url(images/dnbgreen.png);">
+    <div class="acm-cta style-1" style="background-image: url(../images/dnbgreen.png);">
         <div class="container">
             <div class="cta-content">
                 <h2>Start Shaping the Future Now</h2>
-                <a href="request-a-demo.html" class="btn btn-default">REQUEST A DEMO</a>
+                <a href="request-a-demo.html" class="btn btn-default">
+                    {{ site.data.pages.general.request_a_demo[page.lang] }}
+                </a>
             </div>
         </div>
     </div>

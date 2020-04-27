@@ -19,47 +19,51 @@
                             <div class="module-inner">
                                 <div class="module-ct">
                                     <ul class="nav nav-pills nav-stacked menu">
-                                        {% if page.title == "Home" %}
+                                        {% if page.ref == "page_ref_home" %}
                                         <li class="item-101 default current active">
                                         {% else %}
                                         <li class="item-101 default">
                                         {% endif %}                                      
-                                            <a href="index.html" class="">HOME {{ page.title }}</a>
+                                            <a href="index.html" class="toUpper">{{ site.data.pages['page_ref_home'].title[page.lang] }}</a>
                                         </li>
                                         <li class="item-199 deeper dropdown parent">
-                                            <a href="#" class=" dropdown-toggle" data-toggle="dropdown"> ABOUT US
+                                            <a href="#" class=" dropdown-toggle" data-toggle="dropdown"> 
+                                                {{ site.data.pages['page_ref_about_us'].title[page.lang] }} 
                                                 <em class="caret"></em>
                                             </a>
                                             <ul class="dropdown-menu">
-                                                {% if page.title == "Who We Are" %}
+                                                {% if page.ref == "page_ref_who_we_are" %}
                                                 <li class="item-389 current active">
                                                 {% else %}
                                                 <li class="item-389">
                                                 {% endif %}                                                  
-                                                    <a href="who-we-are.html" class="">Who We Are</a>
+                                                    <a href="who-we-are.html" class="">
+                                                        {{ site.data.pages['page_ref_who_we_are'].title[page.lang] }}
+                                                    </a>
                                                 </li>
                                                 <li class="item-391">
-                                                    <a href="meet-the-leadership.html" class="">Meet The
-                                                        Leadership
+                                                    <a href="meet-the-leadership.html" class="">
+                                                        {{ site.data.pages['page_ref_meet_the_leadership'].title[page.lang] }}
                                                     </a>
                                                 </li>
                                                 <li class="item-393">
-                                                    <a href="careers.html" class="">Careers
+                                                    <a href="careers.html" class="">
+                                                        {{ site.data.pages['page_ref_careers'].title[page.lang] }}
                                                     </a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="item-360">
-                                            <a href="our-services.html" class="">OUR SERVICES</a>
+                                            <a href="our-services.html" class=""> {{ site.data.pages['page_ref_our_services'].title[page.lang] }}</a>
                                         </li>
                                         <li class="item-198">
-                                            <a href="our-solutions.html" class="">OUR SOLUTIONS</a>
+                                            <a href="our-solutions.html" class=""> {{ site.data.pages['page_ref_our_solutions'].title[page.lang] }}</a>
                                         </li>
                                         <li class="item-118">
-                                            <a href="contact-us.html" class="">CONTACT US</a>
+                                            <a href="contact-us.html" class="">{{ site.data.pages['page_ref_contact_us'].title[page.lang] }}</a>
                                         </li>
                                         <li class="item-119">
-                                            <a href="/blog/" class="">BLOG</a>
+                                            <a href="/blog/" class="">BLOG</a>  
                                         </li>
                                     </ul>
                                 </div>
@@ -71,41 +75,49 @@
                 <div class="pull-left navbar-collapse collapse">
                     <div class="t3-megamenu" data-responsive="true">
                         <ul itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">                            
-                            {% if page.title == "Home" %}
+                            {% if page.ref == "page_ref_home" %}
                             <li itemprop='name' class="current active" data-id="101" data-level="1">
                             {% else %}
                             <li itemprop='name' class="" data-id="101" data-level="1">
                             {% endif %}      
-                                <a itemprop='url' class="" href="index.html" data-target="#">HOME</a>
+                                <a itemprop='url' class="toUpper" href="index.html" data-target="#">{{ site.data.pages['page_ref_home'].title[page.lang] }}</a>
                             </li>
                             <li itemprop='name' class="dropdown mega" data-id="199" data-level="1">
-                                <a itemprop='url' class="dropdown-toggle" href="#" data-target="#" data-toggle="dropdown">ABOUT US<em class="caret"></em></a>
+                                <a itemprop='url' class="dropdown-toggle toUpper" href="#" data-target="#" data-toggle="dropdown">
+                                    {{ site.data.pages['page_ref_about_us'].title[page.lang] }} <em class="caret"></em>
+                                </a>
                                 <div class="nav-child dropdown-menu mega-dropdown-menu" style="width: 300px" data-width="300">
                                     <div class="mega-dropdown-inner">
                                         <div class="row">
                                             <div class="col-xs-12 mega-col-nav" data-width="12">
                                                 <div class="mega-inner">
                                                     <ul itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
-                                                        {% if page.title == "Who We Are" %}
+                                                        {% if page.ref == "page_ref_who_we_are" %}
                                                         <li itemprop='name' data-id="389" data-level="2" class="current active">
                                                         {% else %}
                                                         <li itemprop='name' data-id="389" data-level="2">
                                                         {% endif %}      
-                                                            <a itemprop='url' class="" href="who-we-are.html" data-target="#">Who We Are</a>
+                                                            <a itemprop='url' class="toUpper" href="who-we-are.html" data-target="#">
+                                                                {{ site.data.pages['page_ref_who_we_are'].title[page.lang] }}
+                                                            </a>
                                                         </li>
-                                                        {% if page.title == "Meet The Leadership" %}
+                                                        {% if page.ref == "page_ref_meet_the_leadership" %}
                                                         <li itemprop='name' data-id="391" data-level="2" class="current active">
                                                         {% else %}
                                                         <li itemprop='name' data-id="391" data-level="2">
                                                         {% endif %}      
-                                                            <a itemprop='url' class="" href="meet-the-leadership.html" data-target="#">Meet The Leadership</a>
+                                                            <a itemprop='url' class="toUpper" href="meet-the-leadership.html" data-target="#">
+                                                                {{ site.data.pages['page_ref_meet_the_leadership'].title[page.lang] }}
+                                                            </a>
                                                         </li>
-                                                        {% if page.title == "Careers" %}
+                                                        {% if page.ref == "page_ref_careers" %}
                                                         <li itemprop='name' data-id="393" data-level="2" class="current active">
                                                         {% else %}
                                                         <li itemprop='name' data-id="393" data-level="2">
                                                         {% endif %}      
-                                                            <a itemprop='url' class="" href="careers.html" data-target="#">Careers</a>
+                                                            <a itemprop='url' class="toUpper" href="careers.html" data-target="#">
+                                                                {{ site.data.pages['page_ref_careers'].title[page.lang] }}
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -114,31 +126,33 @@
                                     </div>
                                 </div>
                             </li>
-                            {% if page.title == "Our Services" %}
+                            {% if page.ref == "page_ref_our_services" %}
                             <li itemprop='name' data-id="360" data-level="1" class="current active">
                             {% else %}
                             <li itemprop='name' data-id="360" data-level="1">
                             {% endif %} 
-                                <a itemprop='url' class="" href="our-services.html" data-target="#">OUR SERVICES
+                                <a itemprop='url' class="toUpper" href="our-services.html" data-target="#">
+                                    {{ site.data.pages['page_ref_our_services'].title[page.lang]}}
                                 </a>
                             </li>
 
-                            {% if page.title == "Our Solutions" %}
+                            {% if page.ref == "page_ref_our_solutions" %}
                             <li itemprop='name' data-id="198" data-level="1" class="current active">
                             {% else %}
                             <li itemprop='name' data-id="198" data-level="1">
                             {% endif %} 
-                                <a itemprop='url' class="" href="our-solutions.html" data-target="#">OUR
-                                    SOLUTIONS
+                                <a itemprop='url' class="toUpper" href="our-solutions.html" data-target="#">
+                                    {{ site.data.pages['page_ref_our_solutions'].title[page.lang]}}                                    
                                 </a>
                             </li>
 
-                            {% if page.title == "Contact Us" %}
+                            {% if page.ref == "page_ref_contact_us" %}
                             <li itemprop='name' data-id="118" data-level="1" class="current active">
                             {% else %}
                             <li itemprop='name' data-id="118" data-level="1">
                             {% endif %} 
-                                <a itemprop='url' class="" href="contact-us.html" data-target="#">CONTACT US
+                                <a itemprop='url' class="toUpper" href="contact-us.html" data-target="#">
+                                    {{ site.data.pages['page_ref_contact_us'].title[page.lang] }}
                                 </a>
                             </li>
 
@@ -158,3 +172,4 @@
     </div>
 </nav>
 <!-- //MAIN NAVIGATION -->
+ 
