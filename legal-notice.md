@@ -42,8 +42,8 @@ layout: default
                     <meta content="Legal Notice" itemprop="headline">
                     <section class="article-content clearfix" itemprop="articleBody">
                         <h2>Deep Network GmbH</h2>
-                        Landsbergerstr. 302<br />
-                        80687 München<br />
+                        Zeppelinstr. 73<br />
+                        DE-81669 München<br />
                         <strong><em>Telephone</em></strong>: +49 (0) 89 6151 5236<br />
                         <strong><em>E-Mail</em></strong>: 
                         <span id="cloak84b8a04af8a7b36da7ee7dcb03b6187a">This email address is being protected from spambots. You need JavaScript enabled to view it.</span>
