@@ -44,8 +44,8 @@ layout: default
                     <section class="article-content clearfix" itemprop="articleBody">
 			            Controller within the meaning of the General Data Protection Regulation (“GDPR”) is:
                         Deep Network GmbH (“We“)<br />
-                        Landsbergerstr. 302<br />
-                        D-80687 München<br />
+                        Zeppelinstr. 73<br />
+                        DE-81669 München<br />
                         Germany<br /><br />
                         E-Mail: <span id="cloakb2d4ec4a2fd5f1138e34292b4730cc0d">This email address is being protected from spambots. You need JavaScript enabled to view it.</span>
                         <script type='text/javascript'>
@@ -61,8 +61,8 @@ layout: default
                         <br /><br />
                         Deep Network GmbH.<br /><br />
                         Corporate Data Protection<br />
-                        Landsbergerstr. 302<br />
-                        D-80687 München<br />
+                        Zeppelinstr. 73<br />
+                        DE-81669 München<br />
                         Germany<br /><br />
                         E-Mail: <span id="cloakbfbf31b98e5bbaedbc4560101219d773">This email address is being protected from spambots. You need JavaScript enabled to view it.</span>
                         <script type='text/javascript'>
