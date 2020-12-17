@@ -70,8 +70,8 @@ layout: default
                         	<div class="col-md-3">
                                 <svg class="contacticon"><use xlink:href="../images/sprite.svg#icon-map-o"></use></svg>
                                 <br>
-                                <a href="https://www.google.com/maps/place/Landsberger+Str.+302,+80687+München,+Germany/@48.14355,11.4984984,17z/data=!3m1!4b1!4m5!3m4!1s0x479e762aeaf2d807:0xc5a85816304c8a87!8m2!3d48.14355!4d11.5006871" target="_blank">Landsbergerstr. 302<br>
-                                D-80687 München<br>
+                                <a href="https://www.google.com/maps/place/Zeppelinstra%C3%9Fe+73,+81669+M%C3%BCnchen,+Germany/@48.1301598,11.5842197,17z/data=!3m1!4b1!4m5!3m4!1s0x479ddf7cc4143749:0x1d94ae4c5d1f2e69!8m2!3d48.1301562!4d11.5864084" target="_blank">Zeppelinstr. 73<br>
+                                DE-81669 München<br>
                                 GERMANY</a>
                         	</div>
                             <div class="col-md-3" style="text-align: right;">
@@ -108,8 +108,8 @@ layout: default
             displayWeatherInfo:1,
             owm_api: "", 
             mapCenterType:"address",
-            mapCenterAddress:"Landsbergerstr. 302 Munich GERMANY",
-            mapCenterCoordinate	:"40.7143528, -74.0059731",
+            mapCenterAddress:" Zeppelinstr. 73 Munich GERMANY",
+            mapCenterCoordinate	:"48.1301598,11.5842197",
             enableStyle:"0",
             styleTitle:"BT Map",
             createNewOrDefault:"createNew",
