@@ -1,0 +1,16 @@
+<svg width="110" height="103" viewBox="0 0 110 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="13.5" width="107" height="70" rx="5.5" stroke="#727272" stroke-width="3"/>
+<rect x="42.5" y="83.5" width="25" height="17" stroke="#727272" stroke-width="3"/>
+<line x1="34" y1="101" x2="76" y2="101" stroke="#727272" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M53.2504 14.3102L6.84825 13.9995C4.62938 13.9847 2.82323 15.7787 2.82322 17.9977L2.82318 28.2794L54.9936 28.28V28.2795L107 28.3477L107 18.0195C107 15.8028 105.197 14.008 102.98 14.0178L53.2504 14.2374L53.2504 14.3102Z" fill="#00A65A"/>
+<ellipse cx="16" cy="35.5" rx="3" ry="2.5" fill="#727272"/>
+<ellipse cx="16" cy="43.5" rx="3" ry="2.5" fill="#727272"/>
+<circle cx="16" cy="52" r="3" fill="#727272"/>
+<ellipse cx="16" cy="60.5" rx="3" ry="2.5" fill="#727272"/>
+<line x1="27" y1="44.5" x2="90" y2="44.5" stroke="#727272" stroke-width="3"/>
+<line x1="27" y1="36.5" x2="90" y2="36.5" stroke="#727272" stroke-width="3"/>
+<line x1="27" y1="53.5" x2="90" y2="53.5" stroke="#727272" stroke-width="3"/>
+<line x1="27" y1="61.5" x2="90" y2="61.5" stroke="#727272" stroke-width="3"/>
+<path d="M71.5 16.5C71.5 24.8281 64.965 31.5 57 31.5C49.035 31.5 42.5 24.8281 42.5 16.5C42.5 8.17188 49.035 1.5 57 1.5C64.965 1.5 71.5 8.17188 71.5 16.5Z" fill="white" stroke="#727272" stroke-width="3"/>
+<path d="M50 15.1176L55.85 21L63 11" stroke="#00A65A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
