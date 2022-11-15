@@ -172,11 +172,13 @@ p { font-size: 18px; }
 
 .trapez-right { background-image: url(/assets/trapez-right.svg); background-repeat: no-repeat; background-position-x: left; }
 
-.map { background-image: url(/assets/map-germany.svg); background-repeat: no-repeat; background-position-x: left; height: 324px; background-size: auto 324px; }
+.map-germany { background-image: url(/assets/map-germany.svg); background-repeat: no-repeat; background-position-x: left; height: 324px; background-size: auto 324px; }
 
-#map_dot { position: relative; width: 12px; top: 244px; left: 130px; }
+.map_houston { background-image: url(/assets/map-houston.svg); background-repeat: no-repeat; background-position-x: left; height: 324px; background-size: auto 324px; }
 
-#map_line { position: relative; width: 103px; top: 209px; left: 140px; }
+#map_germany_dot { position: relative; width: 12px; top: 244px; left: 130px; }
+
+#map_houston_dot { position: relative; width: 12px; top: 175px; left: 215px; }
 
 .contact-icon img { width: 45px; max-height: 45px; }
 
@@ -189,6 +191,12 @@ p { font-size: 18px; }
 .footer a { padding-left: 1vw; padding-right: 1vw; color: black; text-decoration: none; }
 
 .footer a:hover { color: black; text-decoration: none; }
+
+#facebook-link { display: flex; justify-content: center; float: none; margin: 0; margin-left: auto; }
+
+#twitter-link { display: flex; justify-content: center; float: none; margin: 0; }
+
+#linkedin-link { display: flex; justify-content: center; float: none; margin: 0; margin-right: auto; }
 
 .bg-blue { background-color: #004AB9; background-size: 100% 80%; padding-left: 0; }
 
